@@ -302,18 +302,43 @@ local_slide( {
                       "animations" : [
                         {
                           "timeOffset" : 0,
-                          "from" : {
-                            "scalar" : false
-                          },
                           "beginTime" : 0,
                           "repeatCount" : 0,
+                          "animations" : [
+                            {
+                              "timeOffset" : 0,
+                              "from" : {
+                                "scalar" : false
+                              },
+                              "beginTime" : 1,
+                              "repeatCount" : 0,
+                              "fillMode" : "both",
+                              "property" : "hidden",
+                              "autoreverses" : false,
+                              "duration" : 0.001,
+                              "to" : {
+                                "scalar" : true
+                              }
+                            },
+                            {
+                              "timeOffset" : 0,
+                              "from" : {
+                                "scalar" : true
+                              },
+                              "beginTime" : 1.0009999999999999,
+                              "repeatCount" : 0,
+                              "fillMode" : "forwards",
+                              "property" : "hidden",
+                              "autoreverses" : false,
+                              "duration" : 0.999,
+                              "to" : {
+                                "scalar" : true
+                              }
+                            }
+                          ],
                           "fillMode" : "both",
-                          "property" : "hidden",
                           "autoreverses" : false,
-                          "duration" : 0.01,
-                          "to" : {
-                            "scalar" : true
-                          }
+                          "duration" : 2
                         }
                       ],
                       "layers" : [
@@ -378,6 +403,112 @@ local_slide( {
                         }
                       },
                       "texture" : "1377F06CB10E464F4653C502CCDF737B"
+                    },
+                    {
+                      "animations" : [
+                        {
+                          "timeOffset" : 0,
+                          "beginTime" : 0,
+                          "repeatCount" : 0,
+                          "animations" : [
+                            {
+                              "timeOffset" : 0,
+                              "timingFunctions" : [
+                                {
+                                  "timingFunction" : "EaseIn"
+                                },
+                                {
+                                  "timingFunction" : "EaseOut"
+                                }
+                              ],
+                              "beginTime" : 0,
+                              "values" : [
+                                {
+                                  "scalar" : 0
+                                },
+                                {
+                                  "scalar" : 1
+                                },
+                                {
+                                  "scalar" : 0
+                                }
+                              ],
+                              "repeatCount" : 0,
+                              "fillMode" : "removed",
+                              "property" : "opacity",
+                              "autoreverses" : false,
+                              "duration" : 2,
+                              "keyTimes" : [
+                                0,
+                                0.5,
+                                1
+                              ]
+                            }
+                          ],
+                          "fillMode" : "both",
+                          "autoreverses" : false,
+                          "duration" : 2
+                        }
+                      ],
+                      "initialState" : {
+                        "affineTransform" : [
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        "scale" : 1,
+                        "rotation" : 0,
+                        "masksToBounds" : false,
+                        "position" : {
+                          "pointX" : 512,
+                          "pointY" : 384
+                        },
+                        "backgroundColor" : [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        "width" : 1024,
+                        "sublayerTransform" : [
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        "contentsRect" : {
+                          "y" : 0,
+                          "x" : 0,
+                          "width" : 1,
+                          "height" : 1
+                        },
+                        "opacity" : 1,
+                        "edgeAntialiasingMask" : 251658240,
+                        "height" : 768,
+                        "hidden" : false,
+                        "anchorPoint" : {
+                          "pointX" : 0.5,
+                          "pointY" : 0.5
+                        }
+                      },
+                      "layers" : [
+
+                      ]
                     }
                   ]
                 }
@@ -386,9 +517,9 @@ local_slide( {
             "effects" : [
 
             ],
-            "duration" : 0.01,
+            "duration" : 2,
             "type" : "transition",
-            "name" : "none",
+            "name" : "com.apple.iWork.Keynote.BLTFadeThruColor",
             "objectID" : "0"
           }
         ],
@@ -397,24 +528,6 @@ local_slide( {
 
         ],
         "accessibility" : [
-          {
-            "text" : "On a macro level, the global economic outlook remains generally positive, which coupled with the weak pound, will fuel international travel to the UK over the coming years. Vibrant cities will undoubtedly be chosen destinations for international leisure and business tourists and TOWNHOUSE will be well placed to cater for them.",
-            "targetRectangle" : {
-              "y" : 50.495090484619141,
-              "x" : 60.840793609619141,
-              "width" : 453.07812500000023,
-              "height" : 95.128982543945312
-            }
-          },
-          {
-            "text" : "pasted-image.pdf",
-            "targetRectangle" : {
-              "y" : 162.17112731933594,
-              "x" : 407.99243164062494,
-              "width" : 507.63313351790208,
-              "height" : 571.50301916015451
-            }
-          },
           {
             "text" : "Room yield growth by sector 2017 ",
             "targetRectangle" : {
@@ -458,6 +571,24 @@ local_slide( {
               "x" : 61.732208251953125,
               "width" : 292.52792358398483,
               "height" : 179.12898254394531
+            }
+          },
+          {
+            "text" : "On a macro level, the global economic outlook remains generally positive, which coupled with the weak pound, will fuel international travel to the UK over the coming years. Vibrant cities will undoubtedly be chosen destinations for international leisure and business tourists and TOWNHOUSE will be well placed to cater for them.",
+            "targetRectangle" : {
+              "y" : 50.495090484619141,
+              "x" : 60.840793609619141,
+              "width" : 453.07812500000023,
+              "height" : 95.128982543945312
+            }
+          },
+          {
+            "text" : "pasted-image.pdf",
+            "targetRectangle" : {
+              "y" : 162.17112731933594,
+              "x" : 407.99243164062494,
+              "width" : 507.63313351790208,
+              "height" : 571.50301916015451
             }
           }
         ],

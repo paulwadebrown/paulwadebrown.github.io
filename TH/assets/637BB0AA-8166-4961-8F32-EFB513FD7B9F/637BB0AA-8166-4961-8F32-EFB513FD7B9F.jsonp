@@ -116,7 +116,7 @@ local_slide( {
       },
       "5198467E74FB14238D1FB967E4C40B75" : {
         "type" : "texture",
-        "index" : 0,
+        "index" : 19,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -125,8 +125,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
         },
-        "width" : 1024,
-        "height" : 768
+        "width" : 94,
+        "height" : 111
       },
       "98021669970C37F8CE1336D01866E0E3" : {
         "type" : "texture",
@@ -156,9 +156,9 @@ local_slide( {
         "width" : 1024,
         "height" : 768
       },
-      "6CE94FAAEA5D67D5CE1CB3A04AEE9521" : {
+      "498E23C82CA78A4BCD7BA88E5243B6FC" : {
         "type" : "texture",
-        "index" : 5,
+        "index" : 0,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -167,8 +167,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
         },
-        "width" : 117,
-        "height" : 83
+        "width" : 1024,
+        "height" : 768
       },
       "BD9EC123B94B5F48A2DC462FA1998FD5" : {
         "type" : "texture",
@@ -183,6 +183,20 @@ local_slide( {
         },
         "width" : 139,
         "height" : 112
+      },
+      "6CE94FAAEA5D67D5CE1CB3A04AEE9521" : {
+        "type" : "texture",
+        "index" : 5,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
+        },
+        "width" : 117,
+        "height" : 83
       },
       "06CABE4121C8CEB3EE1A334B8DEA09D6" : {
         "type" : "texture",
@@ -240,9 +254,9 @@ local_slide( {
         "width" : 155,
         "height" : 171
       },
-      "F9863E572329CF810E02E3AB53DB9302" : {
+      "C37852C69D57574C2AA08E49C34552F7" : {
         "type" : "texture",
-        "index" : 19,
+        "index" : 7,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -251,8 +265,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
         },
-        "width" : 94,
-        "height" : 111
+        "width" : 55,
+        "height" : 124
       },
       "0EB3317BA3EC678C046C88A26FD64813" : {
         "type" : "texture",
@@ -267,20 +281,6 @@ local_slide( {
         },
         "width" : 112,
         "height" : 93
-      },
-      "C37852C69D57574C2AA08E49C34552F7" : {
-        "type" : "texture",
-        "index" : 7,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
-        },
-        "width" : 55,
-        "height" : 124
       },
       "E0DDC70046510D7BA5A8DAFFEC8A1E63" : {
         "type" : "texture",
@@ -380,20 +380,6 @@ local_slide( {
         "width" : 94,
         "height" : 111
       },
-      "57CB004DA301ED033C7135E4FA5E9AAE" : {
-        "type" : "texture",
-        "index" : 18,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
-        },
-        "width" : 94,
-        "height" : 111
-      },
       "2D13E1101A64190C430EB62222D6B8C6" : {
         "type" : "texture",
         "index" : 23,
@@ -407,6 +393,20 @@ local_slide( {
         },
         "width" : 110,
         "height" : 95
+      },
+      "57CB004DA301ED033C7135E4FA5E9AAE" : {
+        "type" : "texture",
+        "index" : 18,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
+        },
+        "width" : 94,
+        "height" : 111
       },
       "5A80BE23EDE577C607DF17C35890AC33" : {
         "type" : "texture",
@@ -681,16 +681,17 @@ local_slide( {
                         {
                           "timeOffset" : 0,
                           "from" : {
-                            "scalar" : false
+                            "scalar" : 1
                           },
                           "beginTime" : 0,
                           "repeatCount" : 0,
                           "fillMode" : "both",
-                          "property" : "hidden",
+                          "duration" : 2,
                           "autoreverses" : false,
-                          "duration" : 0.01,
+                          "timingFunction" : "EaseInEaseOut",
+                          "property" : "opacity",
                           "to" : {
-                            "scalar" : true
+                            "scalar" : 0
                           }
                         }
                       ],
@@ -764,9 +765,9 @@ local_slide( {
             "effects" : [
 
             ],
-            "duration" : 0.01,
+            "duration" : 2,
             "type" : "transition",
-            "name" : "none",
+            "name" : "apple:dissolve",
             "objectID" : "0"
           }
         ],
@@ -775,78 +776,6 @@ local_slide( {
 
         ],
         "accessibility" : [
-          {
-            "text" : "HANDMADE, BRITISH BED & MATTRESS",
-            "targetRectangle" : {
-              "y" : 314.18563842773438,
-              "x" : 626.85745300292967,
-              "width" : 156.22000000000003,
-              "height" : 55.65997314453125
-            }
-          },
-          {
-            "text" : "NO HOUSE PHONES. WE’LL ENCOURAGE GUESTS TO USE THE APP",
-            "targetRectangle" : {
-              "y" : 597,
-              "x" : 430.04194427490233,
-              "width" : 142.49000000000001,
-              "height" : 112.65997314453125
-            }
-          },
-          {
-            "text" : "NO BATHS JUST GREAT POWER SHOWERS",
-            "targetRectangle" : {
-              "y" : 597.5,
-              "x" : 233.88000762939453,
-              "width" : 136.24000000000001,
-              "height" : 74.65997314453125
-            }
-          },
-          {
-            "text" : "NO NOISY NEIGHBOURS.WE’LL ENSURE ROOMS ARE WELL INSULATED ",
-            "targetRectangle" : {
-              "y" : 596,
-              "x" : 802.66847259521489,
-              "width" : 161.86000000000001,
-              "height" : 112.65997314453125
-            }
-          },
-          {
-            "text" : "‘Everything you want but nothing you don’t need’",
-            "targetRectangle" : {
-              "y" : 113.3712762594223,
-              "x" : 76.962944274902156,
-              "width" : 843.63800000000037,
-              "height" : 47
-            }
-          },
-          {
-            "text" : "TOWNHOUSE BEDROOMS DO AND DONT’S",
-            "targetRectangle" : {
-              "y" : 34,
-              "x" : 18.536600633621219,
-              "width" : 979.35299435424804,
-              "height" : 32.520950317382812
-            }
-          },
-          {
-            "text" : "FRESH MILK, BOTTLED WATER, PROPER TEA & COFFEE",
-            "targetRectangle" : {
-              "y" : 314.18563842773438,
-              "x" : 809.65265319824221,
-              "width" : 194.03999999999996,
-              "height" : 74.65997314453125
-            }
-          },
-          {
-            "text" : "NO EXPENSIVE MINIBAR JUST THE INEXPENSIVE TOWNHALL TUCK SHOP ",
-            "targetRectangle" : {
-              "y" : 596,
-              "x" : 39.841929016113284,
-              "width" : 161.88,
-              "height" : 112.65997314453125
-            }
-          },
           {
             "text" : "PLUGS IN ALL THE RIGHT PLACES. ROOM CONTROLS ON YOUR DEVICE",
             "targetRectangle" : {
@@ -863,6 +792,33 @@ local_slide( {
               "x" : 622.39914154052735,
               "width" : 158.01999999999998,
               "height" : 131.65997314453125
+            }
+          },
+          {
+            "text" : "TOWNHOUSE BEDROOMS DO AND DONT’S",
+            "targetRectangle" : {
+              "y" : 34,
+              "x" : 18.536600633621219,
+              "width" : 979.35299435424804,
+              "height" : 32.520950317382812
+            }
+          },
+          {
+            "text" : "‘Everything you want but nothing you don’t need’",
+            "targetRectangle" : {
+              "y" : 113.3712762594223,
+              "x" : 76.962944274902156,
+              "width" : 843.63800000000037,
+              "height" : 47
+            }
+          },
+          {
+            "text" : "LIMITLESS FREE AND FAST WIFI",
+            "targetRectangle" : {
+              "y" : 317.679931640625,
+              "x" : 63.971929016113279,
+              "width" : 113.62,
+              "height" : 55.65997314453125
             }
           },
           {
@@ -893,12 +849,57 @@ local_slide( {
             }
           },
           {
-            "text" : "LIMITLESS FREE AND FAST WIFI",
+            "text" : "NO EXPENSIVE MINIBAR JUST THE INEXPENSIVE TOWNHALL TUCK SHOP ",
             "targetRectangle" : {
-              "y" : 317.679931640625,
-              "x" : 63.971929016113279,
-              "width" : 113.62,
+              "y" : 596,
+              "x" : 39.841929016113284,
+              "width" : 161.88,
+              "height" : 112.65997314453125
+            }
+          },
+          {
+            "text" : "HANDMADE, BRITISH BED & MATTRESS",
+            "targetRectangle" : {
+              "y" : 314.18563842773438,
+              "x" : 626.85745300292967,
+              "width" : 156.22000000000003,
               "height" : 55.65997314453125
+            }
+          },
+          {
+            "text" : "NO HOUSE PHONES. WE’LL ENCOURAGE GUESTS TO USE THE APP",
+            "targetRectangle" : {
+              "y" : 597,
+              "x" : 430.04194427490233,
+              "width" : 142.49000000000001,
+              "height" : 112.65997314453125
+            }
+          },
+          {
+            "text" : "NO NOISY NEIGHBOURS.WE’LL ENSURE ROOMS ARE WELL INSULATED ",
+            "targetRectangle" : {
+              "y" : 596,
+              "x" : 802.66847259521489,
+              "width" : 161.86000000000001,
+              "height" : 112.65997314453125
+            }
+          },
+          {
+            "text" : "FRESH MILK, BOTTLED WATER, PROPER TEA & COFFEE",
+            "targetRectangle" : {
+              "y" : 314.18563842773438,
+              "x" : 809.65265319824221,
+              "width" : 194.03999999999996,
+              "height" : 74.65997314453125
+            }
+          },
+          {
+            "text" : "NO BATHS JUST GREAT POWER SHOWERS",
+            "targetRectangle" : {
+              "y" : 597.5,
+              "x" : 233.88000762939453,
+              "width" : 136.24000000000001,
+              "height" : 74.65997314453125
             }
           }
         ],
@@ -1133,7 +1134,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "5198467E74FB14238D1FB967E4C40B75"
+                      "texture" : "498E23C82CA78A4BCD7BA88E5243B6FC"
                     }
                   ]
                 }
@@ -15429,7 +15430,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "F9863E572329CF810E02E3AB53DB9302"
+                      "texture" : "5198467E74FB14238D1FB967E4C40B75"
                     }
                   ]
                 }

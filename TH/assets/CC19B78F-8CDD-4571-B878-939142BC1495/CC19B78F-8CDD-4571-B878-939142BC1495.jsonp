@@ -16,9 +16,9 @@ local_slide( {
         "width" : 368,
         "height" : 54
       },
-      "2608EEB5030C33F52C71D6CC009E1657" : {
+      "FDB433DA21DD45F9DA2BB57276DD412E" : {
         "type" : "texture",
-        "index" : 0,
+        "index" : 2,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -30,9 +30,9 @@ local_slide( {
         "width" : 1024,
         "height" : 768
       },
-      "FDB433DA21DD45F9DA2BB57276DD412E" : {
+      "4697FFD275888B7E0945F35D8826C015" : {
         "type" : "texture",
-        "index" : 2,
+        "index" : 0,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -246,18 +246,43 @@ local_slide( {
                       "animations" : [
                         {
                           "timeOffset" : 0,
-                          "from" : {
-                            "scalar" : false
-                          },
                           "beginTime" : 0,
                           "repeatCount" : 0,
+                          "animations" : [
+                            {
+                              "timeOffset" : 0,
+                              "from" : {
+                                "scalar" : false
+                              },
+                              "beginTime" : 0.75,
+                              "repeatCount" : 0,
+                              "fillMode" : "both",
+                              "property" : "hidden",
+                              "autoreverses" : false,
+                              "duration" : 0.001,
+                              "to" : {
+                                "scalar" : true
+                              }
+                            },
+                            {
+                              "timeOffset" : 0,
+                              "from" : {
+                                "scalar" : true
+                              },
+                              "beginTime" : 0.751,
+                              "repeatCount" : 0,
+                              "fillMode" : "forwards",
+                              "property" : "hidden",
+                              "autoreverses" : false,
+                              "duration" : 0.749,
+                              "to" : {
+                                "scalar" : true
+                              }
+                            }
+                          ],
                           "fillMode" : "both",
-                          "property" : "hidden",
                           "autoreverses" : false,
-                          "duration" : 0.01,
-                          "to" : {
-                            "scalar" : true
-                          }
+                          "duration" : 1.5
                         }
                       ],
                       "layers" : [
@@ -322,6 +347,112 @@ local_slide( {
                         }
                       },
                       "texture" : "745C0497A4BD40D9223AAA9DF4DF64EE"
+                    },
+                    {
+                      "animations" : [
+                        {
+                          "timeOffset" : 0,
+                          "beginTime" : 0,
+                          "repeatCount" : 0,
+                          "animations" : [
+                            {
+                              "timeOffset" : 0,
+                              "timingFunctions" : [
+                                {
+                                  "timingFunction" : "EaseIn"
+                                },
+                                {
+                                  "timingFunction" : "EaseOut"
+                                }
+                              ],
+                              "beginTime" : 0,
+                              "values" : [
+                                {
+                                  "scalar" : 0
+                                },
+                                {
+                                  "scalar" : 1
+                                },
+                                {
+                                  "scalar" : 0
+                                }
+                              ],
+                              "repeatCount" : 0,
+                              "fillMode" : "removed",
+                              "property" : "opacity",
+                              "autoreverses" : false,
+                              "duration" : 1.5,
+                              "keyTimes" : [
+                                0,
+                                0.5,
+                                1
+                              ]
+                            }
+                          ],
+                          "fillMode" : "both",
+                          "autoreverses" : false,
+                          "duration" : 1.5
+                        }
+                      ],
+                      "initialState" : {
+                        "affineTransform" : [
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        "scale" : 1,
+                        "rotation" : 0,
+                        "masksToBounds" : false,
+                        "position" : {
+                          "pointX" : 512,
+                          "pointY" : 384
+                        },
+                        "backgroundColor" : [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        "width" : 1024,
+                        "sublayerTransform" : [
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        "contentsRect" : {
+                          "y" : 0,
+                          "x" : 0,
+                          "width" : 1,
+                          "height" : 1
+                        },
+                        "opacity" : 1,
+                        "edgeAntialiasingMask" : 251658240,
+                        "height" : 768,
+                        "hidden" : false,
+                        "anchorPoint" : {
+                          "pointX" : 0.5,
+                          "pointY" : 0.5
+                        }
+                      },
+                      "layers" : [
+
+                      ]
                     }
                   ]
                 }
@@ -330,9 +461,9 @@ local_slide( {
             "effects" : [
 
             ],
-            "duration" : 0.01,
+            "duration" : 1.5,
             "type" : "transition",
-            "name" : "none",
+            "name" : "com.apple.iWork.Keynote.BLTFadeThruColor",
             "objectID" : "0"
           }
         ],
@@ -582,7 +713,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "2608EEB5030C33F52C71D6CC009E1657"
+                      "texture" : "4697FFD275888B7E0945F35D8826C015"
                     }
                   ]
                 }

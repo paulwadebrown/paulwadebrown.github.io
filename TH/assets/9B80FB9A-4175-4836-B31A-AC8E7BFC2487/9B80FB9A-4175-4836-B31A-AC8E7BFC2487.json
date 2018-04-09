@@ -259,16 +259,17 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : false
+                          "scalar" : 1
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "property" : "hidden",
+                        "duration" : 2,
                         "autoreverses" : false,
-                        "duration" : 0.01,
+                        "timingFunction" : "EaseInEaseOut",
+                        "property" : "opacity",
                         "to" : {
-                          "scalar" : true
+                          "scalar" : 0
                         }
                       }
                     ],
@@ -342,9 +343,9 @@
           "effects" : [
 
           ],
-          "duration" : 0.01,
+          "duration" : 2,
           "type" : "transition",
-          "name" : "none",
+          "name" : "apple:dissolve",
           "objectID" : "0"
         }
       ],

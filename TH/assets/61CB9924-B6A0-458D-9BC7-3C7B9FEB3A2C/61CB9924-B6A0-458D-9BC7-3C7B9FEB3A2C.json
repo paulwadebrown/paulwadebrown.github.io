@@ -1,19 +1,5 @@
 {
   "assets" : {
-    "75B03933F34C9E33DE0ADDB1BEE2E367" : {
-      "type" : "texture",
-      "index" : 6,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/61CB9924-B6A0-458D-9BC7-3C7B9FEB3A2C.pdf"
-      },
-      "width" : 49,
-      "height" : 47
-    },
     "8705C2883892C1731CA403F46FA9A499" : {
       "type" : "texture",
       "index" : 14,
@@ -126,7 +112,7 @@
       "width" : 363,
       "height" : 436
     },
-    "51F7C3D23896E764C620A7D7E981E35C" : {
+    "EE40F8447EE0FD6CD7B5F43CFAE131E8" : {
       "type" : "texture",
       "index" : 13,
       "assetRequest" : {
@@ -209,6 +195,20 @@
       },
       "width" : 501,
       "height" : 338
+    },
+    "75B03933F34C9E33DE0ADDB1BEE2E367" : {
+      "type" : "texture",
+      "index" : 6,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/61CB9924-B6A0-458D-9BC7-3C7B9FEB3A2C.pdf"
+      },
+      "width" : 49,
+      "height" : 47
     }
   },
   "events" : [
@@ -392,24 +392,49 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "51F7C3D23896E764C620A7D7E981E35C"
+                    "texture" : "EE40F8447EE0FD6CD7B5F43CFAE131E8"
                   },
                   {
                     "animations" : [
                       {
                         "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : false
-                        },
                         "beginTime" : 0,
                         "repeatCount" : 0,
+                        "animations" : [
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : false
+                            },
+                            "beginTime" : 0.75,
+                            "repeatCount" : 0,
+                            "fillMode" : "both",
+                            "property" : "hidden",
+                            "autoreverses" : false,
+                            "duration" : 0.001,
+                            "to" : {
+                              "scalar" : true
+                            }
+                          },
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : true
+                            },
+                            "beginTime" : 0.751,
+                            "repeatCount" : 0,
+                            "fillMode" : "forwards",
+                            "property" : "hidden",
+                            "autoreverses" : false,
+                            "duration" : 0.749,
+                            "to" : {
+                              "scalar" : true
+                            }
+                          }
+                        ],
                         "fillMode" : "both",
-                        "property" : "hidden",
                         "autoreverses" : false,
-                        "duration" : 0.01,
-                        "to" : {
-                          "scalar" : true
-                        }
+                        "duration" : 1.5
                       }
                     ],
                     "layers" : [
@@ -474,6 +499,112 @@
                       }
                     },
                     "texture" : "8705C2883892C1731CA403F46FA9A499"
+                  },
+                  {
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "beginTime" : 0,
+                        "repeatCount" : 0,
+                        "animations" : [
+                          {
+                            "timeOffset" : 0,
+                            "timingFunctions" : [
+                              {
+                                "timingFunction" : "EaseIn"
+                              },
+                              {
+                                "timingFunction" : "EaseOut"
+                              }
+                            ],
+                            "beginTime" : 0,
+                            "values" : [
+                              {
+                                "scalar" : 0
+                              },
+                              {
+                                "scalar" : 1
+                              },
+                              {
+                                "scalar" : 0
+                              }
+                            ],
+                            "repeatCount" : 0,
+                            "fillMode" : "removed",
+                            "property" : "opacity",
+                            "autoreverses" : false,
+                            "duration" : 1.5,
+                            "keyTimes" : [
+                              0,
+                              0.5,
+                              1
+                            ]
+                          }
+                        ],
+                        "fillMode" : "both",
+                        "autoreverses" : false,
+                        "duration" : 1.5
+                      }
+                    ],
+                    "initialState" : {
+                      "affineTransform" : [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      "scale" : 1,
+                      "rotation" : 0,
+                      "masksToBounds" : false,
+                      "position" : {
+                        "pointX" : 512,
+                        "pointY" : 384
+                      },
+                      "backgroundColor" : [
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "width" : 1024,
+                      "sublayerTransform" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "contentsRect" : {
+                        "y" : 0,
+                        "x" : 0,
+                        "width" : 1,
+                        "height" : 1
+                      },
+                      "opacity" : 1,
+                      "edgeAntialiasingMask" : 251658240,
+                      "height" : 768,
+                      "hidden" : false,
+                      "anchorPoint" : {
+                        "pointX" : 0.5,
+                        "pointY" : 0.5
+                      }
+                    },
+                    "layers" : [
+
+                    ]
                   }
                 ]
               }
@@ -482,9 +613,9 @@
           "effects" : [
 
           ],
-          "duration" : 0.01,
+          "duration" : 1.5,
           "type" : "transition",
-          "name" : "none",
+          "name" : "com.apple.iWork.Keynote.BLTFadeThruColor",
           "objectID" : "0"
         }
       ],
@@ -493,6 +624,15 @@
 
       ],
       "accessibility" : [
+        {
+          "text" : "Screen Shot 2018-03-27 at 20.49.04.png",
+          "targetRectangle" : {
+            "y" : 453.30154418945312,
+            "x" : 17.668613433837891,
+            "width" : 560.62119957160758,
+            "height" : 278.5105099564189
+          }
+        },
         {
           "text" : "pasted-image.pdf",
           "targetRectangle" : {
@@ -527,15 +667,6 @@
             "x" : 605.97662353515625,
             "width" : 359.42568969726585,
             "height" : 123.12898254394531
-          }
-        },
-        {
-          "text" : "Screen Shot 2018-03-27 at 20.49.04.png",
-          "targetRectangle" : {
-            "y" : 453.30154418945312,
-            "x" : 17.668613433837891,
-            "width" : 560.62119957160758,
-            "height" : 278.5105099564189
           }
         }
       ],

@@ -177,7 +177,153 @@ local_slide( {
                   "layers" : [
                     {
                       "animations" : [
-
+                        {
+                          "timeOffset" : 0,
+                          "beginTime" : 0,
+                          "repeatCount" : 0,
+                          "animations" : [
+                            {
+                              "timeOffset" : 0,
+                              "from" : {
+                                "pointX" : 0.5,
+                                "pointY" : 0
+                              },
+                              "beginTime" : 0,
+                              "repeatCount" : 0,
+                              "fillMode" : "removed",
+                              "property" : "anchorPoint",
+                              "autoreverses" : false,
+                              "duration" : 0.5,
+                              "to" : {
+                                "pointX" : 0.5,
+                                "pointY" : 0
+                              }
+                            },
+                            {
+                              "timeOffset" : 0,
+                              "from" : {
+                                "scalar" : -384
+                              },
+                              "beginTime" : 0,
+                              "repeatCount" : 0,
+                              "fillMode" : "removed",
+                              "property" : "transform.translation.y",
+                              "autoreverses" : false,
+                              "duration" : 0.5,
+                              "to" : {
+                                "scalar" : -384
+                              }
+                            },
+                            {
+                              "repeatCount" : 0,
+                              "timingControlPoint2y" : 1,
+                              "from" : {
+                                "scalar" : 1536
+                              },
+                              "timingFunction" : "custom",
+                              "timeOffset" : 0,
+                              "autoreverses" : false,
+                              "timingControlPoint1x" : 0.095191024243831635,
+                              "fillMode" : "forwards",
+                              "property" : "transform.translation.x",
+                              "duration" : 0.16666666666666666,
+                              "beginTime" : 0,
+                              "timingControlPoint2x" : 0.68545162677764893,
+                              "timingControlPoint1y" : 0,
+                              "to" : {
+                                "scalar" : 0
+                              }
+                            },
+                            {
+                              "timeOffset" : 0,
+                              "timingFunctions" : [
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.7719760537147522,
+                                  "timingControlPoint1x" : 0.20201054215431213,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                }
+                              ],
+                              "beginTime" : 0,
+                              "values" : [
+                                {
+                                  "scalar" : 0
+                                },
+                                {
+                                  "scalar" : -0.31
+                                },
+                                {
+                                  "scalar" : 0.20999999999999999
+                                },
+                                {
+                                  "scalar" : -0.070000000000000007
+                                },
+                                {
+                                  "scalar" : 0.014
+                                },
+                                {
+                                  "scalar" : -0.0016999999999999999
+                                },
+                                {
+                                  "scalar" : 0
+                                }
+                              ],
+                              "repeatCount" : 0,
+                              "fillMode" : "removed",
+                              "property" : "transform.rotation.z",
+                              "autoreverses" : false,
+                              "duration" : 0.5,
+                              "keyTimes" : [
+                                0,
+                                0.094,
+                                0.375,
+                                0.53000000000000003,
+                                0.6875,
+                                0.84375,
+                                1
+                              ]
+                            }
+                          ],
+                          "fillMode" : "both",
+                          "autoreverses" : false,
+                          "duration" : 0.5
+                        }
                       ],
                       "layers" : [
 
@@ -246,18 +392,150 @@ local_slide( {
                       "animations" : [
                         {
                           "timeOffset" : 0,
-                          "from" : {
-                            "scalar" : false
-                          },
                           "beginTime" : 0,
                           "repeatCount" : 0,
+                          "animations" : [
+                            {
+                              "timeOffset" : 0,
+                              "from" : {
+                                "pointX" : 0.5,
+                                "pointY" : 0
+                              },
+                              "beginTime" : 0,
+                              "repeatCount" : 0,
+                              "fillMode" : "removed",
+                              "property" : "anchorPoint",
+                              "autoreverses" : false,
+                              "duration" : 0.5,
+                              "to" : {
+                                "pointX" : 0.5,
+                                "pointY" : 0
+                              }
+                            },
+                            {
+                              "timeOffset" : 0,
+                              "from" : {
+                                "scalar" : -384
+                              },
+                              "beginTime" : 0,
+                              "repeatCount" : 0,
+                              "fillMode" : "removed",
+                              "property" : "transform.translation.y",
+                              "autoreverses" : false,
+                              "duration" : 0.5,
+                              "to" : {
+                                "scalar" : -384
+                              }
+                            },
+                            {
+                              "repeatCount" : 0,
+                              "timingControlPoint2y" : 1,
+                              "from" : {
+                                "scalar" : 0
+                              },
+                              "timingFunction" : "custom",
+                              "timeOffset" : 0,
+                              "autoreverses" : false,
+                              "timingControlPoint1x" : 0.095191024243831635,
+                              "fillMode" : "forwards",
+                              "property" : "transform.translation.x",
+                              "duration" : 0.16666666666666666,
+                              "beginTime" : 0,
+                              "timingControlPoint2x" : 0.68545162677764893,
+                              "timingControlPoint1y" : 0,
+                              "to" : {
+                                "scalar" : -1536
+                              }
+                            },
+                            {
+                              "timeOffset" : 0,
+                              "timingFunctions" : [
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.7719760537147522,
+                                  "timingControlPoint1x" : 0.20201054215431213,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                },
+                                {
+                                  "timingFunction" : "custom",
+                                  "timingControlPoint1y" : 0,
+                                  "timingControlPoint2x" : 0.64319360256195068,
+                                  "timingControlPoint1x" : 0.35383033752441406,
+                                  "timingControlPoint2y" : 1
+                                }
+                              ],
+                              "beginTime" : 0,
+                              "values" : [
+                                {
+                                  "scalar" : 0
+                                },
+                                {
+                                  "scalar" : -0.31
+                                },
+                                {
+                                  "scalar" : 0.20999999999999999
+                                },
+                                {
+                                  "scalar" : -0.070000000000000007
+                                },
+                                {
+                                  "scalar" : 0.014
+                                },
+                                {
+                                  "scalar" : -0.0016999999999999999
+                                },
+                                {
+                                  "scalar" : 0
+                                }
+                              ],
+                              "repeatCount" : 0,
+                              "fillMode" : "removed",
+                              "property" : "transform.rotation.z",
+                              "autoreverses" : false,
+                              "duration" : 0.5,
+                              "keyTimes" : [
+                                0,
+                                0.094,
+                                0.375,
+                                0.53000000000000003,
+                                0.6875,
+                                0.84375,
+                                1
+                              ]
+                            }
+                          ],
                           "fillMode" : "both",
-                          "property" : "hidden",
                           "autoreverses" : false,
-                          "duration" : 0.01,
-                          "to" : {
-                            "scalar" : true
-                          }
+                          "duration" : 0.5
                         }
                       ],
                       "layers" : [
@@ -330,9 +608,9 @@ local_slide( {
             "effects" : [
 
             ],
-            "duration" : 0.01,
+            "duration" : 0.5,
             "type" : "transition",
-            "name" : "none",
+            "name" : "apple:ClotheslinePush",
             "objectID" : "0"
           }
         ],

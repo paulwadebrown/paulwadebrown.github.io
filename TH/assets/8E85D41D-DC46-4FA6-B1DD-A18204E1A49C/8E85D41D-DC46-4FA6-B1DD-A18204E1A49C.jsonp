@@ -100,7 +100,7 @@ local_slide( {
         "width" : 111,
         "height" : 50
       },
-      "498E23C82CA78A4BCD7BA88E5243B6FC" : {
+      "AAFBFD3CF5AD24E90D1773B7E5659022" : {
         "type" : "texture",
         "index" : 0,
         "assetRequest" : {
@@ -412,42 +412,6 @@ local_slide( {
         ],
         "accessibility" : [
           {
-            "text" : "pasted-image.pdf",
-            "targetRectangle" : {
-              "y" : 14,
-              "x" : 61.836532592773438,
-              "width" : 388.80349731445312,
-              "height" : 367.6015625
-            }
-          },
-          {
-            "text" : "pasted-image.pdf",
-            "targetRectangle" : {
-              "y" : 383.6551513671875,
-              "x" : 487.79830932617188,
-              "width" : 525.14556884765625,
-              "height" : 315.26748657226562
-            }
-          },
-          {
-            "text" : "EBITDA",
-            "targetRectangle" : {
-              "y" : 395.42596435546875,
-              "x" : 724.91913061523439,
-              "width" : 85.491999999999962,
-              "height" : 19.525970458984375
-            }
-          },
-          {
-            "text" : "18%",
-            "targetRectangle" : {
-              "y" : 170.703125,
-              "x" : 198.88478125,
-              "width" : 112.70699999999999,
-              "height" : 55.778915405273438
-            }
-          },
-          {
             "text" : "EBITDA - In our first year of trading we anticipate an annual profit of £153,000 or 7.9% of turnover based on a typical leasehold business model. Due to our low, scaleable cost basis, static payroll and reliable cost of sale margins, we are able to confidently forecast a 19% group EBITDA by year 5 of £5M. ",
             "targetRectangle" : {
               "y" : 394,
@@ -463,6 +427,15 @@ local_slide( {
               "x" : 29.684701919555664,
               "width" : 433.77523803710983,
               "height" : 179.12898254394531
+            }
+          },
+          {
+            "text" : "EBITDA",
+            "targetRectangle" : {
+              "y" : 395.42596435546875,
+              "x" : 724.91913061523439,
+              "width" : 85.491999999999962,
+              "height" : 19.525970458984375
             }
           },
           {
@@ -490,6 +463,33 @@ local_slide( {
               "x" : 482.38641357421875,
               "width" : 517.14556884765648,
               "height" : 71.128982543945312
+            }
+          },
+          {
+            "text" : "pasted-image.pdf",
+            "targetRectangle" : {
+              "y" : 14,
+              "x" : 61.836532592773438,
+              "width" : 388.80349731445312,
+              "height" : 367.6015625
+            }
+          },
+          {
+            "text" : "pasted-image.pdf",
+            "targetRectangle" : {
+              "y" : 383.6551513671875,
+              "x" : 487.79830932617188,
+              "width" : 525.14556884765625,
+              "height" : 315.26748657226562
+            }
+          },
+          {
+            "text" : "18%",
+            "targetRectangle" : {
+              "y" : 170.703125,
+              "x" : 198.88478125,
+              "width" : 112.70699999999999,
+              "height" : 55.778915405273438
             }
           }
         ],
@@ -724,7 +724,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "498E23C82CA78A4BCD7BA88E5243B6FC"
+                      "texture" : "AAFBFD3CF5AD24E90D1773B7E5659022"
                     }
                   ]
                 }

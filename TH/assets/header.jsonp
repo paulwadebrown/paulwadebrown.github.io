@@ -1,7 +1,7 @@
 local_header( {
   "autoplayTransitionDelay" : 5,
   "author" : "",
-  "timestamp" : "2018-29-9 18:4:7",
+  "timestamp" : "2018-41-9 19:4:6",
   "loopSlideshow" : 0,
   "filename" : "CITY TOWNHOUSE V2 Circulation draft",
   "autoplayBuildDelay" : 2,
@@ -10,7 +10,6 @@ local_header( {
   "showMode" : 0,
   "creator" : "Apple Keynote 8.0",
   "slideList" : [
-    "3A5E0A95-FE06-40EA-9FCC-F2F55CCED7E4",
     "C37DC396-D7A0-4472-A903-CC4B9D460B16",
     "71F69450-61AC-410A-9BD5-E50E05DBB1F4",
     "CB22EE04-3BA0-4537-83DC-24BEEE270272",
@@ -50,7 +49,7 @@ local_header( {
   },
   "slideWidth" : 1024,
   "slideHeight" : 768,
-  "slideCount" : 33,
+  "slideCount" : 32,
   "majorVersion" : 1,
   "minorVersion" : 2,
   "fonts" : [
