@@ -14,20 +14,6 @@
       "width" : 168,
       "height" : 367
     },
-    "1D203FC7E6226283954323FC0EC10BB3" : {
-      "type" : "texture",
-      "index" : 1,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/175BC810-5864-49B8-895C-0EC3E686958B.pdf"
-      },
-      "width" : 925,
-      "height" : 58
-    },
     "8B82A150F073EC953DBB9A3E7E893BFF" : {
       "type" : "texture",
       "index" : 7,
@@ -140,9 +126,9 @@
       "width" : 113,
       "height" : 92
     },
-    "41F7A131D5EEC4B27694E31DEFAB79EE" : {
+    "A7ABE4746F09A442E2456C3DCAAF9D31" : {
       "type" : "texture",
-      "index" : 4,
+      "index" : 1,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -151,8 +137,8 @@
       "url" : {
         "native" : "assets\/175BC810-5864-49B8-895C-0EC3E686958B.pdf"
       },
-      "width" : 80,
-      "height" : 118
+      "width" : 925,
+      "height" : 58
     },
     "975708C954C133E5159BAEF13620773C" : {
       "type" : "texture",
@@ -167,6 +153,20 @@
       },
       "width" : 168,
       "height" : 383
+    },
+    "41F7A131D5EEC4B27694E31DEFAB79EE" : {
+      "type" : "texture",
+      "index" : 4,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/175BC810-5864-49B8-895C-0EC3E686958B.pdf"
+      },
+      "width" : 80,
+      "height" : 118
     },
     "2C30E16D7373BE6D81EB55113AF10A77" : {
       "type" : "texture",
@@ -625,6 +625,42 @@
       ],
       "accessibility" : [
         {
+          "text" : "BOOKING PROCESS",
+          "targetRectangle" : {
+            "y" : 203.96900939941406,
+            "x" : 246.22579101562502,
+            "width" : 116.26999999999998,
+            "height" : 47.525970458984375
+          }
+        },
+        {
+          "text" : "The Booking process will be slick, quick and trustworthy. We will partner with industry leaders such as TripTease to ensure that our rates are clear and competitive & our channel manager is intuitive with clearly defined booking steps & abandoned booking triggers to ensure we don’t lose the sale.",
+          "targetRectangle" : {
+            "y" : 267.96900939941406,
+            "x" : 222.191650390625,
+            "width" : 157.73828125000017,
+            "height" : 258.12898254394531
+          }
+        },
+        {
+          "text" : "POST STAY",
+          "targetRectangle" : {
+            "y" : 202.47683715820312,
+            "x" : 861.04061279296877,
+            "width" : 129.79999999999995,
+            "height" : 19.525970458984375
+          }
+        },
+        {
+          "text" : "Our reputation management tool is our final opportunity for us to exceed expectations, build the brand and ensure loyalty. For the few guests that do experience the odd hiccup we will ensure we respond with honesty & humility and for everyone else we will encourage them to tell their story across all digital platforms.",
+          "targetRectangle" : {
+            "y" : 266.47683715820312,
+            "x" : 847.07147216796875,
+            "width" : 157.73828125000011,
+            "height" : 277.12898254394531
+          }
+        },
+        {
           "text" : "PRE-ARRIVAL",
           "targetRectangle" : {
             "y" : 200.92236328125,
@@ -661,6 +697,15 @@
           }
         },
         {
+          "text" : "The key to operational success at TOWNHOUSE will be exceeding guest expectations at every stage of their journey with us. Our aim is to offer an enhanced and integrated experience which unites all aspects of the business around a central view of the guests and their needs. We believe the key markers to friction free customer service are:",
+          "targetRectangle" : {
+            "y" : 21.435510039329529,
+            "x" : 51.19549237060545,
+            "width" : 925.50900000000001,
+            "height" : 53.128982543945312
+          }
+        },
+        {
           "text" : "STAY",
           "targetRectangle" : {
             "y" : 202.47683715820312,
@@ -676,51 +721,6 @@
             "x" : 644.070068359375,
             "width" : 157.73828125000011,
             "height" : 258.12898254394531
-          }
-        },
-        {
-          "text" : "The key to operational success at TOWNHOUSE will be exceeding guest expectations at every stage of their journey with us. Our aim is to offer an enhanced and integrated experience which unites all aspects of the business around a central view of the guests and their needs. We believe the key markers to friction free customer service are:",
-          "targetRectangle" : {
-            "y" : 21.435510039329529,
-            "x" : 51.19549237060545,
-            "width" : 925.50900000000001,
-            "height" : 53.128982543945312
-          }
-        },
-        {
-          "text" : "BOOKING PROCESS",
-          "targetRectangle" : {
-            "y" : 203.96900939941406,
-            "x" : 246.22579101562502,
-            "width" : 116.26999999999998,
-            "height" : 47.525970458984375
-          }
-        },
-        {
-          "text" : "The Booking process will be slick, quick and trustworthy. We will partner with industry leaders such as TripTease to ensure that our rates are clear and competitive & our channel manager is intuitive with clearly defined booking steps & abandoned booking triggers to ensure we don’t lose the sale.",
-          "targetRectangle" : {
-            "y" : 267.96900939941406,
-            "x" : 222.191650390625,
-            "width" : 157.73828125000017,
-            "height" : 258.12898254394531
-          }
-        },
-        {
-          "text" : "POST STAY",
-          "targetRectangle" : {
-            "y" : 202.47683715820312,
-            "x" : 861.04061279296877,
-            "width" : 129.79999999999995,
-            "height" : 19.525970458984375
-          }
-        },
-        {
-          "text" : "Our reputation management tool is our final opportunity for us to exceed expectations, build the brand and ensure loyalty. For the few guests that do experience the odd hiccup we will ensure we respond with honesty & humility and for everyone else we will encourage them to tell their story across all digital platforms.",
-          "targetRectangle" : {
-            "y" : 266.47683715820312,
-            "x" : 847.07147216796875,
-            "width" : 157.73828125000011,
-            "height" : 277.12898254394531
           }
         }
       ],
@@ -1142,7 +1142,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "1D203FC7E6226283954323FC0EC10BB3"
+                    "texture" : "A7ABE4746F09A442E2456C3DCAAF9D31"
                   }
                 ]
               }

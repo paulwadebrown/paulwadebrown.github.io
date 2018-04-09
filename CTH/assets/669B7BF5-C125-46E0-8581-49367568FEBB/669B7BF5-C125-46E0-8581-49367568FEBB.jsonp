@@ -511,6 +511,15 @@ local_slide( {
             }
           },
           {
+            "text" : "TOWNHOUSE USP’s",
+            "targetRectangle" : {
+              "y" : 49,
+              "x" : 728.58585937500004,
+              "width" : 272.68999999999994,
+              "height" : 67.520950317382812
+            }
+          },
+          {
             "text" : "THE TOWN HALL will be an all day destination for residents and their guests. Particularly important for our frequent travellers, who will use the space for informal meetings or as a simple co-working space. Weekenders will gather here, pre and post party and our Hosts will encourage bad behaviour from the sidelines. The Townhall will be a comfortable but a connected space  - think velvet sofas but with wireless charging, oodles of USB connections, good Wifi, connected printers (via our App), free tea & coffee  and an ice machine. ",
             "targetRectangle" : {
               "y" : 34.917863845825195,
@@ -526,15 +535,6 @@ local_slide( {
               "x" : 37.65234375,
               "width" : 613.93749999999977,
               "height" : 33.128982543945312
-            }
-          },
-          {
-            "text" : "TOWNHOUSE USP’s",
-            "targetRectangle" : {
-              "y" : 49,
-              "x" : 728.58585937500004,
-              "width" : 272.68999999999994,
-              "height" : 67.520950317382812
             }
           }
         ],
@@ -2598,24 +2598,6 @@ local_slide( {
             }
           },
           {
-            "text" : "THE TOWN HALL will be an all day destination for residents and their guests. Particularly important for our frequent travellers, who will use the space for informal meetings or as a simple co-working space. Weekenders will gather here, pre and post party and our Hosts will encourage bad behaviour from the sidelines. The Townhall will be a comfortable but a connected space  - think velvet sofas but with wireless charging, oodles of USB connections, good Wifi, connected printers (via our App), free tea & coffee  and an ice machine. ",
-            "targetRectangle" : {
-              "y" : 34.917863845825195,
-              "x" : 37.65234375,
-              "width" : 613.93750000000068,
-              "height" : 128.12898254394531
-            }
-          },
-          {
-            "text" : "The Townhall tuck shop will be well stocked with ambient grab and go food and a range of drinks to get the party started. All products will be available to guests at supermarket prices.",
-            "targetRectangle" : {
-              "y" : 189.9178638458252,
-              "x" : 37.65234375,
-              "width" : 613.93749999999977,
-              "height" : 33.128982543945312
-            }
-          },
-          {
             "text" : "TOWNHOUSE USP’s",
             "targetRectangle" : {
               "y" : 49,
@@ -2631,6 +2613,24 @@ local_slide( {
               "x" : 619.14359941935913,
               "width" : 214.00600000000009,
               "height" : 192
+            }
+          },
+          {
+            "text" : "THE TOWN HALL will be an all day destination for residents and their guests. Particularly important for our frequent travellers, who will use the space for informal meetings or as a simple co-working space. Weekenders will gather here, pre and post party and our Hosts will encourage bad behaviour from the sidelines. The Townhall will be a comfortable but a connected space  - think velvet sofas but with wireless charging, oodles of USB connections, good Wifi, connected printers (via our App), free tea & coffee  and an ice machine. ",
+            "targetRectangle" : {
+              "y" : 34.917863845825195,
+              "x" : 37.65234375,
+              "width" : 613.93750000000068,
+              "height" : 128.12898254394531
+            }
+          },
+          {
+            "text" : "The Townhall tuck shop will be well stocked with ambient grab and go food and a range of drinks to get the party started. All products will be available to guests at supermarket prices.",
+            "targetRectangle" : {
+              "y" : 189.9178638458252,
+              "x" : 37.65234375,
+              "width" : 613.93749999999977,
+              "height" : 33.128982543945312
             }
           }
         ],

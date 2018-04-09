@@ -835,21 +835,21 @@ local_slide( {
             }
           },
           {
-            "text" : "Use guest behavioural trend data and apply to all TOWNHOUSE marketing strategies ",
-            "targetRectangle" : {
-              "y" : 36.231586933135986,
-              "x" : 630.41804577636719,
-              "width" : 300.56399999999996,
-              "height" : 49.793975830078125
-            }
-          },
-          {
             "text" : "Technology at TOWNHOUSE",
             "targetRectangle" : {
               "y" : 32.199872255325317,
               "x" : 25.667761535644559,
               "width" : 294.3999978637695,
               "height" : 57.85595703125
+            }
+          },
+          {
+            "text" : "Use guest behavioural trend data and apply to all TOWNHOUSE marketing strategies ",
+            "targetRectangle" : {
+              "y" : 36.231586933135986,
+              "x" : 630.41804577636719,
+              "width" : 300.56399999999996,
+              "height" : 49.793975830078125
             }
           }
         ],
@@ -15267,21 +15267,21 @@ local_slide( {
             }
           },
           {
-            "text" : "Use guest behavioural trend data and apply to all TOWNHOUSE marketing strategies ",
-            "targetRectangle" : {
-              "y" : 36.231586933135986,
-              "x" : 630.41804577636719,
-              "width" : 300.56399999999996,
-              "height" : 49.793975830078125
-            }
-          },
-          {
             "text" : "Technology at TOWNHOUSE",
             "targetRectangle" : {
               "y" : 32.199872255325317,
               "x" : 25.667761535644559,
               "width" : 294.3999978637695,
               "height" : 57.85595703125
+            }
+          },
+          {
+            "text" : "Use guest behavioural trend data and apply to all TOWNHOUSE marketing strategies ",
+            "targetRectangle" : {
+              "y" : 36.231586933135986,
+              "x" : 630.41804577636719,
+              "width" : 300.56399999999996,
+              "height" : 49.793975830078125
             }
           }
         ],

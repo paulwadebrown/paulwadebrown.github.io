@@ -445,24 +445,6 @@
       ],
       "accessibility" : [
         {
-          "text" : "£5M ",
-          "targetRectangle" : {
-            "y" : 401.64572143554688,
-            "x" : 623.87806658888542,
-            "width" : 105.53099999999995,
-            "height" : 58.578659057617188
-          }
-        },
-        {
-          "text" : "EBITDA by year 5",
-          "targetRectangle" : {
-            "y" : 482.69841003417969,
-            "x" : 602.70156355379368,
-            "width" : 149.08399999999995,
-            "height" : 48.257965087890625
-          }
-        },
-        {
           "text" : "TOWNHOUSE is the collaborative magic of Paul Brown & Christoph Brooke. With over 40 years of industry experience between them, we believe we have a couple of chaps who will inspire our team of wild hearts and open minds to achieve a brand to be proud of. ",
           "targetRectangle" : {
             "y" : 69.977352142333984,
@@ -568,6 +550,24 @@
             "x" : 90.972000122070312,
             "width" : 124.774,
             "height" : 11.128982543945312
+          }
+        },
+        {
+          "text" : "£5M ",
+          "targetRectangle" : {
+            "y" : 401.64572143554688,
+            "x" : 623.87806658888542,
+            "width" : 105.53099999999995,
+            "height" : 58.578659057617188
+          }
+        },
+        {
+          "text" : "EBITDA by year 5",
+          "targetRectangle" : {
+            "y" : 482.69841003417969,
+            "x" : 602.70156355379368,
+            "width" : 149.08399999999995,
+            "height" : 48.257965087890625
           }
         }
       ],
@@ -4386,51 +4386,6 @@
       ],
       "accessibility" : [
         {
-          "text" : "Initial funding requirement",
-          "targetRectangle" : {
-            "y" : 82.633487701416016,
-            "x" : 707.74468424571978,
-            "width" : 279.11999999999989,
-            "height" : 90.3199462890625
-          }
-        },
-        {
-          "text" : "£2M",
-          "targetRectangle" : {
-            "y" : 175.63348770141602,
-            "x" : 780.73467767362195,
-            "width" : 121.13999999999999,
-            "height" : 88.25958251953125
-          }
-        },
-        {
-          "text" : "with  a further investment opportunity in year 3",
-          "targetRectangle" : {
-            "y" : 265.63348770141602,
-            "x" : 694.7716793888867,
-            "width" : 299.96599999999989,
-            "height" : 44.458969116210938
-          }
-        },
-        {
-          "text" : "£5M ",
-          "targetRectangle" : {
-            "y" : 401.64572143554688,
-            "x" : 623.87806658888542,
-            "width" : 105.53099999999995,
-            "height" : 58.578659057617188
-          }
-        },
-        {
-          "text" : "EBITDA by year 5",
-          "targetRectangle" : {
-            "y" : 482.69841003417969,
-            "x" : 602.70156355379368,
-            "width" : 149.08399999999995,
-            "height" : 48.257965087890625
-          }
-        },
-        {
           "text" : "TOWNHOUSE is the collaborative magic of Paul Brown & Christoph Brooke. With over 40 years of industry experience between them, we believe we have a couple of chaps who will inspire our team of wild hearts and open minds to achieve a brand to be proud of. ",
           "targetRectangle" : {
             "y" : 69.977352142333984,
@@ -4536,6 +4491,51 @@
             "x" : 90.972000122070312,
             "width" : 124.774,
             "height" : 11.128982543945312
+          }
+        },
+        {
+          "text" : "£5M ",
+          "targetRectangle" : {
+            "y" : 401.64572143554688,
+            "x" : 623.87806658888542,
+            "width" : 105.53099999999995,
+            "height" : 58.578659057617188
+          }
+        },
+        {
+          "text" : "EBITDA by year 5",
+          "targetRectangle" : {
+            "y" : 482.69841003417969,
+            "x" : 602.70156355379368,
+            "width" : 149.08399999999995,
+            "height" : 48.257965087890625
+          }
+        },
+        {
+          "text" : "Initial funding requirement",
+          "targetRectangle" : {
+            "y" : 82.633487701416016,
+            "x" : 707.74468424571978,
+            "width" : 279.11999999999989,
+            "height" : 90.3199462890625
+          }
+        },
+        {
+          "text" : "£2M",
+          "targetRectangle" : {
+            "y" : 175.63348770141602,
+            "x" : 780.73467767362195,
+            "width" : 121.13999999999999,
+            "height" : 88.25958251953125
+          }
+        },
+        {
+          "text" : "with  a further investment opportunity in year 3",
+          "targetRectangle" : {
+            "y" : 265.63348770141602,
+            "x" : 694.7716793888867,
+            "width" : 299.96599999999989,
+            "height" : 44.458969116210938
           }
         }
       ],

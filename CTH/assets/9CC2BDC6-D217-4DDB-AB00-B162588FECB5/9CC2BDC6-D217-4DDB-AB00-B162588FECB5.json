@@ -541,6 +541,15 @@
       ],
       "accessibility" : [
         {
+          "text" : "THE USE of technology will also be at the heart of our sales and marketing strategy. We will embrace the infinite amounts of data profiling we build up about our guests and their behavioural patterns. This will help us identify who our demographic really is, rather than who we believe it to be and enable us to create a targeted marketing campaign that appeals to that demographic. We will gather data using three specific tools;",
+          "targetRectangle" : {
+            "y" : 46.435509443283081,
+            "x" : 198.50050354003906,
+            "width" : 753.92589847743568,
+            "height" : 83.128982543945312
+          }
+        },
+        {
           "text" : "IN HOUSE APP",
           "targetRectangle" : {
             "y" : 184.203125,
@@ -601,15 +610,6 @@
             "x" : 201.578125,
             "width" : 747.64062499999989,
             "height" : 65.128982543945312
-          }
-        },
-        {
-          "text" : "THE USE of technology will also be at the heart of our sales and marketing strategy. We will embrace the infinite amounts of data profiling we build up about our guests and their behavioural patterns. This will help us identify who our demographic really is, rather than who we believe it to be and enable us to create a targeted marketing campaign that appeals to that demographic. We will gather data using three specific tools;",
-          "targetRectangle" : {
-            "y" : 46.435509443283081,
-            "x" : 198.50050354003906,
-            "width" : 753.92589847743568,
-            "height" : 83.128982543945312
           }
         }
       ],

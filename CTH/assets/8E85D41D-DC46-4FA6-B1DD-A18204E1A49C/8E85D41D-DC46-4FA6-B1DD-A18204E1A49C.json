@@ -541,30 +541,30 @@
       ],
       "accessibility" : [
         {
-          "text" : "EBITDA - In our first year of trading we anticipate an annual profit of £153,000 or 7.9% of turnover based on a typical leasehold business model. Due to our low, scaleable cost basis, static payroll and reliable cost of sale margins, we are able to confidently forecast a 19% group EBITDA by year 5 of £5M. ",
+          "text" : "EBITDA",
           "targetRectangle" : {
-            "y" : 394,
-            "x" : 29.684701919555664,
-            "width" : 433.77523803710972,
-            "height" : 95.128982543945312
+            "y" : 395.42596435546875,
+            "x" : 724.91913061523439,
+            "width" : 85.491999999999962,
+            "height" : 19.525970458984375
           }
         },
         {
-          "text" : "CAPITAL EXPENDITURE will vary per property but our calculations are based on a tenant’s responsibility for fixture and fittings on all properties. Taking into account, professional fees, rental deposit, stamp duty & pre-trading costs, we forecast a total capital expenditure of £2M for our first property. Our  total capital expenditure over 5 years will be £20M  with external investment of £9.9M required to complement the funds released from our positive trading of the portfolio. Further details of our anticipated capital expenditure are detailed in our appendices.",
+          "text" : "pasted-image.pdf",
           "targetRectangle" : {
-            "y" : 520,
-            "x" : 29.684701919555664,
-            "width" : 433.77523803710983,
-            "height" : 179.12898254394531
+            "y" : 383.6551513671875,
+            "x" : 487.79830932617188,
+            "width" : 525.14556884765625,
+            "height" : 315.26748657226562
           }
         },
         {
-          "text" : "18%",
+          "text" : "pasted-image.pdf",
           "targetRectangle" : {
-            "y" : 170.703125,
-            "x" : 198.88478125,
-            "width" : 112.70699999999999,
-            "height" : 55.778915405273438
+            "y" : 14,
+            "x" : 61.836532592773438,
+            "width" : 388.80349731445312,
+            "height" : 367.6015625
           }
         },
         {
@@ -595,30 +595,30 @@
           }
         },
         {
-          "text" : "EBITDA",
+          "text" : "18%",
           "targetRectangle" : {
-            "y" : 395.42596435546875,
-            "x" : 724.91913061523439,
-            "width" : 85.491999999999962,
-            "height" : 19.525970458984375
+            "y" : 170.703125,
+            "x" : 198.88478125,
+            "width" : 112.70699999999999,
+            "height" : 55.778915405273438
           }
         },
         {
-          "text" : "pasted-image.pdf",
+          "text" : "EBITDA - In our first year of trading we anticipate an annual profit of £153,000 or 7.9% of turnover based on a typical leasehold business model. Due to our low, scaleable cost basis, static payroll and reliable cost of sale margins, we are able to confidently forecast a 19% group EBITDA by year 5 of £5M. ",
           "targetRectangle" : {
-            "y" : 383.6551513671875,
-            "x" : 487.79830932617188,
-            "width" : 525.14556884765625,
-            "height" : 315.26748657226562
+            "y" : 394,
+            "x" : 29.684701919555664,
+            "width" : 433.77523803710972,
+            "height" : 95.128982543945312
           }
         },
         {
-          "text" : "pasted-image.pdf",
+          "text" : "CAPITAL EXPENDITURE will vary per property but our calculations are based on a tenant’s responsibility for fixture and fittings on all properties. Taking into account, professional fees, rental deposit, stamp duty & pre-trading costs, we forecast a total capital expenditure of £2M for our first property. Our  total capital expenditure over 5 years will be £20M  with external investment of £9.9M required to complement the funds released from our positive trading of the portfolio. Further details of our anticipated capital expenditure are detailed in our appendices.",
           "targetRectangle" : {
-            "y" : 14,
-            "x" : 61.836532592773438,
-            "width" : 388.80349731445312,
-            "height" : 367.6015625
+            "y" : 520,
+            "x" : 29.684701919555664,
+            "width" : 433.77523803710983,
+            "height" : 179.12898254394531
           }
         }
       ],

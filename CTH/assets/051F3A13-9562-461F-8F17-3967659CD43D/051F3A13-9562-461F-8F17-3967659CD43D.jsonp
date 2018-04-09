@@ -2,7 +2,7 @@ local_slide( {
   "name" : "051F3A13-9562-461F-8F17-3967659CD43D",
   "json" : {
     "assets" : {
-      "1377F06CB10E464F4653C502CCDF737B" : {
+      "498E23C82CA78A4BCD7BA88E5243B6FC" : {
         "type" : "texture",
         "index" : 0,
         "assetRequest" : {
@@ -58,20 +58,6 @@ local_slide( {
         "width" : 1024,
         "height" : 768
       },
-      "11D5F9113D20A76A4A6F1A2D968D1A70" : {
-        "type" : "texture",
-        "index" : 3,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/051F3A13-9562-461F-8F17-3967659CD43D.pdf"
-        },
-        "width" : 317,
-        "height" : 190
-      },
       "A83EB3DB70FF91A72F0D3ED34FDF8961" : {
         "type" : "texture",
         "index" : 5,
@@ -85,6 +71,20 @@ local_slide( {
         },
         "width" : 1024,
         "height" : 768
+      },
+      "11D5F9113D20A76A4A6F1A2D968D1A70" : {
+        "type" : "texture",
+        "index" : 3,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/051F3A13-9562-461F-8F17-3967659CD43D.pdf"
+        },
+        "width" : 317,
+        "height" : 190
       }
     },
     "events" : [
@@ -501,15 +501,6 @@ local_slide( {
         ],
         "accessibility" : [
           {
-            "text" : "TECHNOLOGY is at the heart of our concept and it is with good reason. A 2017 global study of travellers by ZEBRA discovered the vast majority of them wanted more technology to enhance their experience, speed up the necessities and improve connectivity with surrounding services.",
-            "targetRectangle" : {
-              "y" : 62.570728302001953,
-              "x" : 57.853153228759766,
-              "width" : 313.15805053710938,
-              "height" : 137.12898254394531
-            }
-          },
-          {
             "text" : "ZEBRA 2017 Global Hospitality study",
             "targetRectangle" : {
               "y" : 233.83040428161621,
@@ -570,6 +561,15 @@ local_slide( {
               "x" : 121.97567224502563,
               "width" : 242.91302633285522,
               "height" : 94.128982543945312
+            }
+          },
+          {
+            "text" : "TECHNOLOGY is at the heart of our concept and it is with good reason. A 2017 global study of travellers by ZEBRA discovered the vast majority of them wanted more technology to enhance their experience, speed up the necessities and improve connectivity with surrounding services.",
+            "targetRectangle" : {
+              "y" : 62.570728302001953,
+              "x" : 57.853153228759766,
+              "width" : 313.15805053710938,
+              "height" : 137.12898254394531
             }
           }
         ],
@@ -804,7 +804,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "1377F06CB10E464F4653C502CCDF737B"
+                      "texture" : "498E23C82CA78A4BCD7BA88E5243B6FC"
                     }
                   ]
                 }

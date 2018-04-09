@@ -9273,6 +9273,42 @@ local_slide( {
         ],
         "accessibility" : [
           {
+            "text" : "12  PROPERTIES",
+            "targetRectangle" : {
+              "y" : 216.37109375,
+              "x" : 743.22418442916864,
+              "width" : 202.4459987769128,
+              "height" : 106.21681213378906
+            }
+          },
+          {
+            "text" : "£27M TURNOVER",
+            "targetRectangle" : {
+              "y" : 350.37109375,
+              "x" : 756.3336843528748,
+              "width" : 180.95099948501581,
+              "height" : 106.21681213378906
+            }
+          },
+          {
+            "text" : "5 ",
+            "targetRectangle" : {
+              "y" : 484.37109375,
+              "x" : 827.21468383789056,
+              "width" : 39.476000000000113,
+              "height" : 72.25958251953125
+            }
+          },
+          {
+            "text" : "YEARS",
+            "targetRectangle" : {
+              "y" : 558.37109375,
+              "x" : 792.36518403577804,
+              "width" : 106.56899935626984,
+              "height" : 32.216812133789062
+            }
+          },
+          {
             "text" : "OUR financial model is based on a full roll out of our concept within 5 years. We believe our brand will be easy to operationally replicate and we therefore have an aggressive growth strategy to maximise profits and returns for our stakeholders reaching twelve, 80 bedroom leasehold properties by the end of year 5. We will continually monitor our financial performance with weekly, monthly and yearly KPI’s and our forecasting will be scientific rather than emotive. Our KPI’s will be the spine of our success:",
             "targetRectangle" : {
               "y" : 41.85546875,
@@ -9360,42 +9396,6 @@ local_slide( {
               "x" : 30.299468994140625,
               "width" : 642.12756347656341,
               "height" : 32.128982543945312
-            }
-          },
-          {
-            "text" : "12  PROPERTIES",
-            "targetRectangle" : {
-              "y" : 216.37109375,
-              "x" : 743.22418442916864,
-              "width" : 202.4459987769128,
-              "height" : 106.21681213378906
-            }
-          },
-          {
-            "text" : "£27M TURNOVER",
-            "targetRectangle" : {
-              "y" : 350.37109375,
-              "x" : 756.3336843528748,
-              "width" : 180.95099948501581,
-              "height" : 106.21681213378906
-            }
-          },
-          {
-            "text" : "5 ",
-            "targetRectangle" : {
-              "y" : 484.37109375,
-              "x" : 827.21468383789056,
-              "width" : 39.476000000000113,
-              "height" : 72.25958251953125
-            }
-          },
-          {
-            "text" : "YEARS",
-            "targetRectangle" : {
-              "y" : 558.37109375,
-              "x" : 792.36518403577804,
-              "width" : 106.56899935626984,
-              "height" : 32.216812133789062
             }
           }
         ],

@@ -116,7 +116,7 @@ local_slide( {
       },
       "5198467E74FB14238D1FB967E4C40B75" : {
         "type" : "texture",
-        "index" : 0,
+        "index" : 5,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -125,8 +125,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
         },
-        "width" : 1024,
-        "height" : 768
+        "width" : 117,
+        "height" : 83
       },
       "98021669970C37F8CE1336D01866E0E3" : {
         "type" : "texture",
@@ -156,9 +156,9 @@ local_slide( {
         "width" : 1024,
         "height" : 768
       },
-      "6CE94FAAEA5D67D5CE1CB3A04AEE9521" : {
+      "498E23C82CA78A4BCD7BA88E5243B6FC" : {
         "type" : "texture",
-        "index" : 5,
+        "index" : 0,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -167,8 +167,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/637BB0AA-8166-4961-8F32-EFB513FD7B9F.pdf"
         },
-        "width" : 117,
-        "height" : 83
+        "width" : 1024,
+        "height" : 768
       },
       "BD9EC123B94B5F48A2DC462FA1998FD5" : {
         "type" : "texture",
@@ -907,48 +907,21 @@ local_slide( {
         ],
         "accessibility" : [
           {
-            "text" : "‘Everything you want but nothing you don’t need’",
-            "targetRectangle" : {
-              "y" : 113.3712762594223,
-              "x" : 76.962944274902156,
-              "width" : 843.63800000000037,
-              "height" : 47
-            }
-          },
-          {
-            "text" : "NO BATHS JUST GREAT POWER SHOWERS",
-            "targetRectangle" : {
-              "y" : 597.5,
-              "x" : 233.88000762939453,
-              "width" : 136.24000000000001,
-              "height" : 74.65997314453125
-            }
-          },
-          {
-            "text" : "FRESH MILK, BOTTLED WATER, PROPER TEA & COFFEE",
-            "targetRectangle" : {
-              "y" : 314.18563842773438,
-              "x" : 809.65265319824221,
-              "width" : 194.03999999999996,
-              "height" : 74.65997314453125
-            }
-          },
-          {
-            "text" : "NO EXPENSIVE MINIBAR JUST THE INEXPENSIVE TOWNHALL TUCK SHOP ",
-            "targetRectangle" : {
-              "y" : 596,
-              "x" : 39.841929016113284,
-              "width" : 161.88,
-              "height" : 112.65997314453125
-            }
-          },
-          {
             "text" : "PLUGS IN ALL THE RIGHT PLACES. ROOM CONTROLS ON YOUR DEVICE",
             "targetRectangle" : {
               "y" : 314.18563842773438,
               "x" : 207.38469299316404,
               "width" : 196.82000000000005,
               "height" : 74.65997314453125
+            }
+          },
+          {
+            "text" : "TOWNHOUSE BEDROOMS DO AND DONT’S",
+            "targetRectangle" : {
+              "y" : 34,
+              "x" : 18.536600633621219,
+              "width" : 979.35299435424804,
+              "height" : 32.520950317382812
             }
           },
           {
@@ -1024,12 +997,39 @@ local_slide( {
             }
           },
           {
-            "text" : "TOWNHOUSE BEDROOMS DO AND DONT’S",
+            "text" : "‘Everything you want but nothing you don’t need’",
             "targetRectangle" : {
-              "y" : 34,
-              "x" : 18.536600633621219,
-              "width" : 979.35299435424804,
-              "height" : 32.520950317382812
+              "y" : 113.3712762594223,
+              "x" : 76.962944274902156,
+              "width" : 843.63800000000037,
+              "height" : 47
+            }
+          },
+          {
+            "text" : "NO BATHS JUST GREAT POWER SHOWERS",
+            "targetRectangle" : {
+              "y" : 597.5,
+              "x" : 233.88000762939453,
+              "width" : 136.24000000000001,
+              "height" : 74.65997314453125
+            }
+          },
+          {
+            "text" : "FRESH MILK, BOTTLED WATER, PROPER TEA & COFFEE",
+            "targetRectangle" : {
+              "y" : 314.18563842773438,
+              "x" : 809.65265319824221,
+              "width" : 194.03999999999996,
+              "height" : 74.65997314453125
+            }
+          },
+          {
+            "text" : "NO EXPENSIVE MINIBAR JUST THE INEXPENSIVE TOWNHALL TUCK SHOP ",
+            "targetRectangle" : {
+              "y" : 596,
+              "x" : 39.841929016113284,
+              "width" : 161.88,
+              "height" : 112.65997314453125
             }
           }
         ],
@@ -1264,7 +1264,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "5198467E74FB14238D1FB967E4C40B75"
+                      "texture" : "498E23C82CA78A4BCD7BA88E5243B6FC"
                     }
                   ]
                 }
@@ -4631,7 +4631,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "6CE94FAAEA5D67D5CE1CB3A04AEE9521"
+                      "texture" : "5198467E74FB14238D1FB967E4C40B75"
                     }
                   ]
                 }

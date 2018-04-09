@@ -574,21 +574,21 @@ local_slide( {
             }
           },
           {
-            "text" : "On a macro level, the global economic outlook remains generally positive, which coupled with the weak pound, will fuel international travel to the UK over the coming years. Vibrant cities will undoubtedly be chosen destinations for international leisure and business tourists and TOWNHOUSE will be well placed to cater for them.",
-            "targetRectangle" : {
-              "y" : 50.495090484619141,
-              "x" : 60.840793609619141,
-              "width" : 453.07812500000023,
-              "height" : 95.128982543945312
-            }
-          },
-          {
             "text" : "pasted-image.pdf",
             "targetRectangle" : {
               "y" : 162.17112731933594,
               "x" : 407.99243164062494,
               "width" : 507.63313351790208,
               "height" : 571.50301916015451
+            }
+          },
+          {
+            "text" : "On a macro level, the global economic outlook remains generally positive, which coupled with the weak pound, will fuel international travel to the UK over the coming years. Vibrant cities will undoubtedly be chosen destinations for international leisure and business tourists and TOWNHOUSE will be well placed to cater for them.",
+            "targetRectangle" : {
+              "y" : 50.495090484619141,
+              "x" : 60.840793609619141,
+              "width" : 453.07812500000023,
+              "height" : 95.128982543945312
             }
           }
         ],

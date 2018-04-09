@@ -627,15 +627,6 @@ local_slide( {
         ],
         "accessibility" : [
           {
-            "text" : "pasted-image.pdf",
-            "targetRectangle" : {
-              "y" : 549.6702880859375,
-              "x" : 597.6060791015625,
-              "width" : 376.166748046875,
-              "height" : 180.74542236328125
-            }
-          },
-          {
             "text" : "There are a number  of  successful competitors well placed in the market place. Like TOWNHOUSE, their model is simple - small, compact rooms, limited food offering and sparse extras within the rooms. ",
             "targetRectangle" : {
               "y" : 85.573371887207031,
@@ -660,6 +651,15 @@ local_slide( {
               "x" : 605.97662353515625,
               "width" : 359.42568969726585,
               "height" : 123.12898254394531
+            }
+          },
+          {
+            "text" : "pasted-image.pdf",
+            "targetRectangle" : {
+              "y" : 549.6702880859375,
+              "x" : 597.6060791015625,
+              "width" : 376.166748046875,
+              "height" : 180.74542236328125
             }
           },
           {

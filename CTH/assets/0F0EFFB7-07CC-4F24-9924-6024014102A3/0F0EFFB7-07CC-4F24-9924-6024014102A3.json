@@ -485,15 +485,6 @@
       ],
       "accessibility" : [
         {
-          "text" : "SENIOR TEAM",
-          "targetRectangle" : {
-            "y" : 30,
-            "x" : 712.77734375,
-            "width" : 296.14300000000003,
-            "height" : 37.252944946289062
-          }
-        },
-        {
           "text" : "Initially, we believe there is no requirement for a senior team. Our CEO will be responsible for creating the business structure, the operational guidelines, procurement contracts, design and property development and will outsource support functions such as HR, health & safety, financial support, marketing & PR, IT and digital. He will always be responsible for our direction of travel but we have budgeted for a Head office support team from the beginning of year 3:",
           "targetRectangle" : {
             "y" : 62.752544403076172,
@@ -554,6 +545,15 @@
             "x" : 41.431735992431641,
             "width" : 627.69995117187568,
             "height" : 65.128982543945312
+          }
+        },
+        {
+          "text" : "SENIOR TEAM",
+          "targetRectangle" : {
+            "y" : 30,
+            "x" : 712.77734375,
+            "width" : 296.14300000000003,
+            "height" : 37.252944946289062
           }
         }
       ],

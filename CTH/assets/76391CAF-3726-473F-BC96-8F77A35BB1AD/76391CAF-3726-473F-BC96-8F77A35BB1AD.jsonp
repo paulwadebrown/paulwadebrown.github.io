@@ -30,6 +30,20 @@ local_slide( {
         "width" : 520,
         "height" : 306
       },
+      "071F8EFC19C01EC2AD016FE23F6568D2" : {
+        "type" : "texture",
+        "index" : 0,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/76391CAF-3726-473F-BC96-8F77A35BB1AD.pdf"
+        },
+        "width" : 1024,
+        "height" : 768
+      },
       "DCDD5EC747304268B8AB0ADA8D54774B" : {
         "type" : "texture",
         "index" : 4,
@@ -47,20 +61,6 @@ local_slide( {
       "DB8451458D98EFA7506DBEBC2B1323F0" : {
         "type" : "texture",
         "index" : 3,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/76391CAF-3726-473F-BC96-8F77A35BB1AD.pdf"
-        },
-        "width" : 1024,
-        "height" : 768
-      },
-      "2608EEB5030C33F52C71D6CC009E1657" : {
-        "type" : "texture",
-        "index" : 0,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -487,6 +487,15 @@ local_slide( {
         ],
         "accessibility" : [
           {
+            "text" : "Appendices",
+            "targetRectangle" : {
+              "y" : 26.999999999999986,
+              "x" : 5,
+              "width" : 399.02400000000006,
+              "height" : 61.44390869140625
+            }
+          },
+          {
             "text" : "Year 1 Summary Profit & Loss for 1 property (start-up)",
             "targetRectangle" : {
               "y" : 323.73701810836792,
@@ -529,15 +538,6 @@ local_slide( {
               "x" : 490.94009518623352,
               "width" : 308.26400000000001,
               "height" : 19.525970458984375
-            }
-          },
-          {
-            "text" : "Appendices",
-            "targetRectangle" : {
-              "y" : 26.999999999999986,
-              "x" : 5,
-              "width" : 399.02400000000006,
-              "height" : 61.44390869140625
             }
           }
         ],
@@ -772,7 +772,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "2608EEB5030C33F52C71D6CC009E1657"
+                      "texture" : "071F8EFC19C01EC2AD016FE23F6568D2"
                     }
                   ]
                 }

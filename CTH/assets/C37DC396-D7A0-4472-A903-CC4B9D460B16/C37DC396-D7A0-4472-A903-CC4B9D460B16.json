@@ -1,5 +1,19 @@
 {
   "assets" : {
+    "11C01A3744A78FAC3B810870D053D367" : {
+      "type" : "texture",
+      "index" : 6,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/C37DC396-D7A0-4472-A903-CC4B9D460B16.pdf"
+      },
+      "width" : 1028,
+      "height" : 228
+    },
     "D62B576A04B924537BF02EC557B26970" : {
       "type" : "texture",
       "index" : 1,
@@ -98,19 +112,20 @@
       "width" : 503,
       "height" : 375
     },
-    "11C01A3744A78FAC3B810870D053D367" : {
-      "type" : "texture",
-      "index" : 6,
+    "Projectth - 09:04:2018, 21.49.mp3-0.0000-28.2906" : {
+      "type" : "audio",
+      "index" : 0,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
         "slide" : "none"
       },
       "url" : {
-        "native" : "assets\/C37DC396-D7A0-4472-A903-CC4B9D460B16.pdf"
+        "web" : "assets\/Projectth - 09:04:2018, 21.49.mp3-0.0000-28.2906.mov",
+        "native" : "assets\/Projectth - 09:04:2018, 21.49.mp3-0.0000-28.2906.mov"
       },
-      "width" : 1028,
-      "height" : 228
+      "width" : 0,
+      "height" : 0
     },
     "6173445C293DE8B91A0794AB60953188" : {
       "type" : "texture",
@@ -130,6 +145,33 @@
   "events" : [
     {
       "effects" : [
+        {
+          "objectID" : "207CB29C-BF10-477F-A297-768F200C039E",
+          "effects" : [
+            {
+              "beginTime" : 0,
+              "effects" : [
+
+              ],
+              "movie" : {
+                "startTime" : 0,
+                "volume" : 1,
+                "endTime" : 28.290612244897961,
+                "isStreaming" : false,
+                "isAudioOnly" : true,
+                "asset" : "Projectth - 09:04:2018, 21.49.mp3-0.0000-28.2906"
+              },
+              "duration" : 0,
+              "type" : "buildIn",
+              "name" : "renderMovie",
+              "objectID" : "207CB29C-BF10-477F-A297-768F200C039E"
+            }
+          ],
+          "beginTime" : 0,
+          "name" : "apple:audio-start",
+          "type" : "buildIn",
+          "duration" : 0.5
+        },
         {
           "beginTime" : 0,
           "baseLayer" : {
@@ -258,7 +300,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -276,7 +318,7 @@
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "to" : {
                               "scalar" : false
                             }
@@ -284,7 +326,7 @@
                         ],
                         "fillMode" : "both",
                         "autoreverses" : false,
-                        "duration" : 2.5
+                        "duration" : 10
                       }
                     ],
                     "layers" : [
@@ -415,14 +457,14 @@
           "effects" : [
 
           ],
-          "duration" : 2.5,
+          "duration" : 10,
           "type" : "buildIn",
           "attributes" : {
             "KNBuildCustomAttributesShine" : false,
             "direction" : 0,
             "KNBuildCustomAttributesScaleAmount" : 99.857336956521735
           },
-          "name" : "com.apple.iWork.Keynote.FromDarkness",
+          "name" : "com.apple.iWork.Keynote.Blur",
           "objectID" : "C9C54CED-8D94-4285-A198-912BF88EFE63"
         },
         {
@@ -553,7 +595,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -571,7 +613,7 @@
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "to" : {
                               "scalar" : false
                             }
@@ -579,7 +621,7 @@
                         ],
                         "fillMode" : "both",
                         "autoreverses" : false,
-                        "duration" : 2.5
+                        "duration" : 10
                       }
                     ],
                     "layers" : [
@@ -710,14 +752,14 @@
           "effects" : [
 
           ],
-          "duration" : 2.5,
+          "duration" : 10,
           "type" : "buildIn",
           "attributes" : {
             "KNBuildCustomAttributesShine" : false,
             "direction" : 0,
             "KNBuildCustomAttributesScaleAmount" : 100.34420289855073
           },
-          "name" : "com.apple.iWork.Keynote.FromDarkness",
+          "name" : "com.apple.iWork.Keynote.Blur",
           "objectID" : "CADD0F14-975D-4D9C-AB9E-FD3EC017203D"
         },
         {
@@ -848,7 +890,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -866,7 +908,7 @@
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "to" : {
                               "scalar" : false
                             }
@@ -874,7 +916,7 @@
                         ],
                         "fillMode" : "both",
                         "autoreverses" : false,
-                        "duration" : 2.5
+                        "duration" : 10
                       }
                     ],
                     "layers" : [
@@ -1005,14 +1047,14 @@
           "effects" : [
 
           ],
-          "duration" : 2.5,
+          "duration" : 10,
           "type" : "buildIn",
           "attributes" : {
             "KNBuildCustomAttributesShine" : false,
             "direction" : 0,
             "KNBuildCustomAttributesScaleAmount" : 99.585597826086953
           },
-          "name" : "com.apple.iWork.Keynote.FromDarkness",
+          "name" : "com.apple.iWork.Keynote.Blur",
           "objectID" : "48ADA79F-9F77-4EF6-A455-D85EF5841491"
         },
         {
@@ -1143,7 +1185,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1161,7 +1203,7 @@
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "to" : {
                               "scalar" : false
                             }
@@ -1169,7 +1211,7 @@
                         ],
                         "fillMode" : "both",
                         "autoreverses" : false,
-                        "duration" : 2.5
+                        "duration" : 10
                       }
                     ],
                     "layers" : [
@@ -1300,14 +1342,14 @@
           "effects" : [
 
           ],
-          "duration" : 2.5,
+          "duration" : 10,
           "type" : "buildIn",
           "attributes" : {
             "KNBuildCustomAttributesShine" : false,
             "direction" : 0,
             "KNBuildCustomAttributesScaleAmount" : 101.74252717391303
           },
-          "name" : "com.apple.iWork.Keynote.FromDarkness",
+          "name" : "com.apple.iWork.Keynote.Blur",
           "objectID" : "4834EE74-AC12-4412-A2C4-A9BD2254692B"
         },
         {
@@ -1438,7 +1480,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1456,7 +1498,7 @@
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 2.5,
+                            "duration" : 10,
                             "to" : {
                               "scalar" : false
                             }
@@ -1464,7 +1506,7 @@
                         ],
                         "fillMode" : "both",
                         "autoreverses" : false,
-                        "duration" : 2.5
+                        "duration" : 10
                       }
                     ],
                     "layers" : [
@@ -1721,7 +1763,7 @@
                                 "beginTime" : 0,
                                 "repeatCount" : 0,
                                 "fillMode" : "both",
-                                "duration" : 2,
+                                "duration" : 2.25,
                                 "autoreverses" : false,
                                 "timingFunction" : "EaseInEaseOut",
                                 "property" : "opacity",
@@ -1739,7 +1781,7 @@
                                 "fillMode" : "forwards",
                                 "property" : "hidden",
                                 "autoreverses" : false,
-                                "duration" : 2,
+                                "duration" : 2.25,
                                 "to" : {
                                   "scalar" : false
                                 }
@@ -1747,7 +1789,7 @@
                             ],
                             "fillMode" : "both",
                             "autoreverses" : false,
-                            "duration" : 2
+                            "duration" : 2.25
                           }
                         ],
                         "layers" : [
@@ -1877,7 +1919,7 @@
               },
               "effects" : [
                 {
-                  "beginTime" : 2,
+                  "beginTime" : 0.10000000000000001,
                   "baseLayer" : {
                     "animations" : [
                       {
@@ -1885,12 +1927,12 @@
                         "from" : {
                           "scalar" : 1
                         },
-                        "beginTime" : 2,
+                        "beginTime" : 0.10000000000000001,
                         "repeatCount" : 0,
                         "fillMode" : "both",
                         "property" : "opacity",
                         "autoreverses" : false,
-                        "duration" : 2,
+                        "duration" : 1.2,
                         "to" : {
                           "scalar" : 0
                         }
@@ -2076,158 +2118,26 @@
                     ]
                   },
                   "effects" : [
-
-                  ],
-                  "duration" : 2,
-                  "type" : "actionBuild",
-                  "name" : "apple:action-opacity",
-                  "objectID" : "C9C54CED-8D94-4285-A198-912BF88EFE63"
-                },
-                {
-                  "beginTime" : 2,
-                  "baseLayer" : {
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : 1
-                        },
-                        "beginTime" : 2,
-                        "repeatCount" : 0,
-                        "fillMode" : "both",
-                        "property" : "opacity",
-                        "autoreverses" : false,
-                        "duration" : 2,
-                        "to" : {
-                          "scalar" : 0
-                        }
-                      }
-                    ],
-                    "initialState" : {
-                      "affineTransform" : [
-                        1,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0
-                      ],
-                      "masksToBounds" : false,
-                      "rotation" : 0,
-                      "scale" : 1,
-                      "position" : {
-                        "pointX" : 165,
-                        "pointY" : 574
-                      },
-                      "width" : 330,
-                      "sublayerTransform" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ],
-                      "contentsRect" : {
-                        "y" : 0,
-                        "x" : 0,
-                        "width" : 1,
-                        "height" : 1
-                      },
-                      "opacity" : 1,
-                      "edgeAntialiasingMask" : 251658240,
-                      "height" : 400,
-                      "hidden" : false,
-                      "anchorPoint" : {
-                        "pointX" : 0.5,
-                        "pointY" : 0.5
-                      }
-                    },
-                    "objectID" : "45D4F3D6-42DD-4AB1-98DA-2400E5ADFFBE",
-                    "layers" : [
-                      {
+                    {
+                      "beginTime" : 0,
+                      "baseLayer" : {
                         "animations" : [
-
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : 1
+                            },
+                            "beginTime" : 1e-100,
+                            "repeatCount" : 0,
+                            "fillMode" : "both",
+                            "property" : "opacity",
+                            "autoreverses" : false,
+                            "duration" : 1,
+                            "to" : {
+                              "scalar" : 0
+                            }
+                          }
                         ],
-                        "layers" : [
-
-                        ],
-                        "texturedRectangle" : {
-                          "singleTextureOpacity" : 1,
-                          "textXHeight" : 0,
-                          "shapePath" : {
-                            "lineWidth" : 1,
-                            "flatness" : 0.59999999999999998,
-                            "lineCapStyle" : 0,
-                            "elements" : [
-                              {
-                                "type" : "MoveToPoint",
-                                "points" : [
-                                  [
-                                    1,
-                                    1
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    328.90234375,
-                                    1
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    328.90234375,
-                                    398.34765625
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    1,
-                                    398.34765625
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "CloseSubpath"
-                              },
-                              {
-                                "type" : "MoveToPoint",
-                                "points" : [
-                                  [
-                                    1,
-                                    1
-                                  ]
-                                ]
-                              }
-                            ],
-                            "windingRule" : 0,
-                            "lineJoinStyle" : 0,
-                            "miterLimit" : 10
-                          },
-                          "isBackgroundTexture" : true,
-                          "textBaseline" : 0,
-                          "isVerticalText" : false,
-                          "textureType" : 5
-                        },
                         "initialState" : {
                           "affineTransform" : [
                             1,
@@ -2241,8 +2151,8 @@
                           "rotation" : 0,
                           "scale" : 1,
                           "position" : {
-                            "pointX" : 163.951171875,
-                            "pointY" : 198.673828125
+                            "pointX" : 165,
+                            "pointY" : 574
                           },
                           "width" : 330,
                           "sublayerTransform" : [
@@ -2270,649 +2180,786 @@
                             "height" : 1
                           },
                           "opacity" : 1,
-                          "edgeAntialiasingMask" : 0,
+                          "edgeAntialiasingMask" : 251658240,
                           "height" : 400,
                           "hidden" : false,
                           "anchorPoint" : {
-                            "pointX" : 0.49985203598484851,
-                            "pointY" : 0.49918457031250002
+                            "pointX" : 0.5,
+                            "pointY" : 0.5
                           }
                         },
-                        "texture" : "5D25ACF377DB6FC3FA091AFE84D36479"
-                      }
-                    ]
-                  },
-                  "effects" : [
-
-                  ],
-                  "duration" : 2,
-                  "type" : "actionBuild",
-                  "name" : "apple:action-opacity",
-                  "objectID" : "45D4F3D6-42DD-4AB1-98DA-2400E5ADFFBE"
-                },
-                {
-                  "beginTime" : 2,
-                  "baseLayer" : {
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : 0.37155172228813171
-                        },
-                        "beginTime" : 2,
-                        "repeatCount" : 0,
-                        "fillMode" : "both",
-                        "property" : "opacity",
-                        "autoreverses" : false,
-                        "duration" : 2,
-                        "to" : {
-                          "scalar" : 0
-                        }
-                      }
-                    ],
-                    "initialState" : {
-                      "affineTransform" : [
-                        1,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0
-                      ],
-                      "masksToBounds" : false,
-                      "rotation" : 0,
-                      "scale" : 1,
-                      "position" : {
-                        "pointX" : 858.06640625,
-                        "pointY" : 574
-                      },
-                      "width" : 354,
-                      "sublayerTransform" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ],
-                      "contentsRect" : {
-                        "y" : 0,
-                        "x" : 0,
-                        "width" : 1,
-                        "height" : 1
-                      },
-                      "opacity" : 0.37155172228813171,
-                      "edgeAntialiasingMask" : 251658240,
-                      "height" : 400,
-                      "hidden" : false,
-                      "anchorPoint" : {
-                        "pointX" : 0.5,
-                        "pointY" : 0.5
-                      }
-                    },
-                    "objectID" : "48ADA79F-9F77-4EF6-A455-D85EF5841491",
-                    "layers" : [
-                      {
-                        "animations" : [
-
-                        ],
+                        "objectID" : "45D4F3D6-42DD-4AB1-98DA-2400E5ADFFBE",
                         "layers" : [
+                          {
+                            "animations" : [
 
-                        ],
-                        "texturedRectangle" : {
-                          "singleTextureOpacity" : 0.37155172228813171,
-                          "textXHeight" : 0,
-                          "shapePath" : {
-                            "lineWidth" : 1,
-                            "flatness" : 0.59999999999999998,
-                            "lineCapStyle" : 0,
-                            "elements" : [
-                              {
-                                "type" : "MoveToPoint",
-                                "points" : [
-                                  [
-                                    1.06640625,
-                                    1
-                                  ]
-                                ]
+                            ],
+                            "layers" : [
+
+                            ],
+                            "texturedRectangle" : {
+                              "singleTextureOpacity" : 1,
+                              "textXHeight" : 0,
+                              "shapePath" : {
+                                "lineWidth" : 1,
+                                "flatness" : 0.59999999999999998,
+                                "lineCapStyle" : 0,
+                                "elements" : [
+                                  {
+                                    "type" : "MoveToPoint",
+                                    "points" : [
+                                      [
+                                        1,
+                                        1
+                                      ]
+                                    ]
+                                  },
+                                  {
+                                    "type" : "AddLine",
+                                    "points" : [
+                                      [
+                                        328.90234375,
+                                        1
+                                      ]
+                                    ]
+                                  },
+                                  {
+                                    "type" : "AddLine",
+                                    "points" : [
+                                      [
+                                        328.90234375,
+                                        398.34765625
+                                      ]
+                                    ]
+                                  },
+                                  {
+                                    "type" : "AddLine",
+                                    "points" : [
+                                      [
+                                        1,
+                                        398.34765625
+                                      ]
+                                    ]
+                                  },
+                                  {
+                                    "type" : "CloseSubpath"
+                                  },
+                                  {
+                                    "type" : "MoveToPoint",
+                                    "points" : [
+                                      [
+                                        1,
+                                        1
+                                      ]
+                                    ]
+                                  }
+                                ],
+                                "windingRule" : 0,
+                                "lineJoinStyle" : 0,
+                                "miterLimit" : 10
                               },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    352.69140625,
-                                    1
-                                  ]
-                                ]
+                              "isBackgroundTexture" : true,
+                              "textBaseline" : 0,
+                              "isVerticalText" : false,
+                              "textureType" : 5
+                            },
+                            "initialState" : {
+                              "affineTransform" : [
+                                1,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0
+                              ],
+                              "masksToBounds" : false,
+                              "rotation" : 0,
+                              "scale" : 1,
+                              "position" : {
+                                "pointX" : 163.951171875,
+                                "pointY" : 198.673828125
                               },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    352.69140625,
-                                    398.34765625
-                                  ]
-                                ]
+                              "width" : 330,
+                              "sublayerTransform" : [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "contentsRect" : {
+                                "y" : 0,
+                                "x" : 0,
+                                "width" : 1,
+                                "height" : 1
                               },
+                              "opacity" : 1,
+                              "edgeAntialiasingMask" : 0,
+                              "height" : 400,
+                              "hidden" : false,
+                              "anchorPoint" : {
+                                "pointX" : 0.49985203598484851,
+                                "pointY" : 0.49918457031250002
+                              }
+                            },
+                            "texture" : "5D25ACF377DB6FC3FA091AFE84D36479"
+                          }
+                        ]
+                      },
+                      "effects" : [
+                        {
+                          "beginTime" : 0,
+                          "baseLayer" : {
+                            "animations" : [
                               {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    1.06640625,
-                                    398.34765625
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "CloseSubpath"
-                              },
-                              {
-                                "type" : "MoveToPoint",
-                                "points" : [
-                                  [
-                                    1.06640625,
-                                    1
-                                  ]
-                                ]
+                                "timeOffset" : 0,
+                                "from" : {
+                                  "scalar" : 0.37155172228813171
+                                },
+                                "beginTime" : 1e-100,
+                                "repeatCount" : 0,
+                                "fillMode" : "both",
+                                "property" : "opacity",
+                                "autoreverses" : false,
+                                "duration" : 1.2,
+                                "to" : {
+                                  "scalar" : 0
+                                }
                               }
                             ],
-                            "windingRule" : 0,
-                            "lineJoinStyle" : 0,
-                            "miterLimit" : 10
-                          },
-                          "isBackgroundTexture" : true,
-                          "textBaseline" : 0,
-                          "isVerticalText" : false,
-                          "textureType" : 5
-                        },
-                        "initialState" : {
-                          "affineTransform" : [
-                            1,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0
-                          ],
-                          "masksToBounds" : false,
-                          "rotation" : 0,
-                          "scale" : 1,
-                          "position" : {
-                            "pointX" : 175.8125,
-                            "pointY" : 198.673828125
-                          },
-                          "width" : 354,
-                          "sublayerTransform" : [
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1
-                          ],
-                          "contentsRect" : {
-                            "y" : 0,
-                            "x" : 0,
-                            "width" : 1,
-                            "height" : 1
-                          },
-                          "opacity" : 1,
-                          "edgeAntialiasingMask" : 0,
-                          "height" : 400,
-                          "hidden" : false,
-                          "anchorPoint" : {
-                            "pointX" : 0.499657927259887,
-                            "pointY" : 0.49918457031250002
-                          }
-                        },
-                        "texture" : "D62B576A04B924537BF02EC557B26970"
-                      }
-                    ]
-                  },
-                  "effects" : [
-
-                  ],
-                  "duration" : 2,
-                  "type" : "actionBuild",
-                  "name" : "apple:action-opacity",
-                  "objectID" : "48ADA79F-9F77-4EF6-A455-D85EF5841491"
-                },
-                {
-                  "beginTime" : 2,
-                  "baseLayer" : {
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : 1
-                        },
-                        "beginTime" : 2,
-                        "repeatCount" : 0,
-                        "fillMode" : "both",
-                        "property" : "opacity",
-                        "autoreverses" : false,
-                        "duration" : 2,
-                        "to" : {
-                          "scalar" : 0
-                        }
-                      }
-                    ],
-                    "initialState" : {
-                      "affineTransform" : [
-                        1,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0
-                      ],
-                      "masksToBounds" : false,
-                      "rotation" : 0,
-                      "scale" : 1,
-                      "position" : {
-                        "pointX" : 506.17187499999994,
-                        "pointY" : 574
-                      },
-                      "width" : 355,
-                      "sublayerTransform" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ],
-                      "contentsRect" : {
-                        "y" : 0,
-                        "x" : 0,
-                        "width" : 1,
-                        "height" : 1
-                      },
-                      "opacity" : 1,
-                      "edgeAntialiasingMask" : 251658240,
-                      "height" : 400,
-                      "hidden" : false,
-                      "anchorPoint" : {
-                        "pointX" : 0.5,
-                        "pointY" : 0.5
-                      }
-                    },
-                    "objectID" : "CADD0F14-975D-4D9C-AB9E-FD3EC017203D",
-                    "layers" : [
-                      {
-                        "animations" : [
-
-                        ],
-                        "layers" : [
-
-                        ],
-                        "texturedRectangle" : {
-                          "singleTextureOpacity" : 1,
-                          "textXHeight" : 0,
-                          "shapePath" : {
-                            "lineWidth" : 1,
-                            "flatness" : 0.59999999999999998,
-                            "lineCapStyle" : 0,
-                            "elements" : [
-                              {
-                                "type" : "MoveToPoint",
-                                "points" : [
-                                  [
-                                    1.6718749999999432,
-                                    1
-                                  ]
-                                ]
+                            "initialState" : {
+                              "affineTransform" : [
+                                1,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0
+                              ],
+                              "masksToBounds" : false,
+                              "rotation" : 0,
+                              "scale" : 1,
+                              "position" : {
+                                "pointX" : 858.06640625,
+                                "pointY" : 574
                               },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    353.296875,
-                                    1
-                                  ]
-                                ]
+                              "width" : 354,
+                              "sublayerTransform" : [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                              ],
+                              "contentsRect" : {
+                                "y" : 0,
+                                "x" : 0,
+                                "width" : 1,
+                                "height" : 1
                               },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    353.296875,
-                                    398.34765625
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    1.6718749999999432,
-                                    398.34765625
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "CloseSubpath"
-                              },
-                              {
-                                "type" : "MoveToPoint",
-                                "points" : [
-                                  [
-                                    1.6718749999999432,
-                                    1
-                                  ]
-                                ]
+                              "opacity" : 0.37155172228813171,
+                              "edgeAntialiasingMask" : 251658240,
+                              "height" : 400,
+                              "hidden" : false,
+                              "anchorPoint" : {
+                                "pointX" : 0.5,
+                                "pointY" : 0.5
                               }
-                            ],
-                            "windingRule" : 0,
-                            "lineJoinStyle" : 0,
-                            "miterLimit" : 10
-                          },
-                          "isBackgroundTexture" : true,
-                          "textBaseline" : 0,
-                          "isVerticalText" : false,
-                          "textureType" : 5
-                        },
-                        "initialState" : {
-                          "affineTransform" : [
-                            1,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0
-                          ],
-                          "masksToBounds" : false,
-                          "rotation" : 0,
-                          "scale" : 1,
-                          "position" : {
-                            "pointX" : 175.81250000000006,
-                            "pointY" : 198.673828125
-                          },
-                          "width" : 355,
-                          "sublayerTransform" : [
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1
-                          ],
-                          "contentsRect" : {
-                            "y" : 0,
-                            "x" : 0,
-                            "width" : 1,
-                            "height" : 1
-                          },
-                          "opacity" : 1,
-                          "edgeAntialiasingMask" : 0,
-                          "height" : 400,
-                          "hidden" : false,
-                          "anchorPoint" : {
-                            "pointX" : 0.49995598591549295,
-                            "pointY" : 0.49918457031250002
-                          }
-                        },
-                        "texture" : "6173445C293DE8B91A0794AB60953188"
-                      }
-                    ]
-                  },
-                  "effects" : [
+                            },
+                            "objectID" : "48ADA79F-9F77-4EF6-A455-D85EF5841491",
+                            "layers" : [
+                              {
+                                "animations" : [
 
-                  ],
-                  "duration" : 2,
-                  "type" : "actionBuild",
-                  "name" : "apple:action-opacity",
-                  "objectID" : "CADD0F14-975D-4D9C-AB9E-FD3EC017203D"
-                },
-                {
-                  "beginTime" : 2,
-                  "baseLayer" : {
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : 1
-                        },
-                        "beginTime" : 2,
-                        "repeatCount" : 0,
-                        "fillMode" : "both",
-                        "property" : "opacity",
-                        "autoreverses" : false,
-                        "duration" : 2,
-                        "to" : {
-                          "scalar" : 0
-                        }
-                      }
-                    ],
-                    "initialState" : {
-                      "affineTransform" : [
-                        1,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0
-                      ],
-                      "masksToBounds" : false,
-                      "rotation" : 0,
-                      "scale" : 1,
-                      "position" : {
-                        "pointX" : 251.5,
-                        "pointY" : 188.5
-                      },
-                      "width" : 503,
-                      "sublayerTransform" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ],
-                      "contentsRect" : {
-                        "y" : 0,
-                        "x" : 0,
-                        "width" : 1,
-                        "height" : 1
-                      },
-                      "opacity" : 1,
-                      "edgeAntialiasingMask" : 251658240,
-                      "height" : 375,
-                      "hidden" : false,
-                      "anchorPoint" : {
-                        "pointX" : 0.5,
-                        "pointY" : 0.5
-                      }
-                    },
-                    "objectID" : "4834EE74-AC12-4412-A2C4-A9BD2254692B",
-                    "layers" : [
-                      {
-                        "animations" : [
+                                ],
+                                "layers" : [
 
-                        ],
-                        "layers" : [
-
-                        ],
-                        "texturedRectangle" : {
-                          "singleTextureOpacity" : 1,
-                          "textXHeight" : 0,
-                          "shapePath" : {
-                            "lineWidth" : 1,
-                            "flatness" : 0.59999999999999998,
-                            "lineCapStyle" : 0,
-                            "elements" : [
-                              {
-                                "type" : "MoveToPoint",
-                                "points" : [
-                                  [
+                                ],
+                                "texturedRectangle" : {
+                                  "singleTextureOpacity" : 0.37155172228813171,
+                                  "textXHeight" : 0,
+                                  "shapePath" : {
+                                    "lineWidth" : 1,
+                                    "flatness" : 0.59999999999999998,
+                                    "lineCapStyle" : 0,
+                                    "elements" : [
+                                      {
+                                        "type" : "MoveToPoint",
+                                        "points" : [
+                                          [
+                                            1.06640625,
+                                            1
+                                          ]
+                                        ]
+                                      },
+                                      {
+                                        "type" : "AddLine",
+                                        "points" : [
+                                          [
+                                            352.69140625,
+                                            1
+                                          ]
+                                        ]
+                                      },
+                                      {
+                                        "type" : "AddLine",
+                                        "points" : [
+                                          [
+                                            352.69140625,
+                                            398.34765625
+                                          ]
+                                        ]
+                                      },
+                                      {
+                                        "type" : "AddLine",
+                                        "points" : [
+                                          [
+                                            1.06640625,
+                                            398.34765625
+                                          ]
+                                        ]
+                                      },
+                                      {
+                                        "type" : "CloseSubpath"
+                                      },
+                                      {
+                                        "type" : "MoveToPoint",
+                                        "points" : [
+                                          [
+                                            1.06640625,
+                                            1
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    "windingRule" : 0,
+                                    "lineJoinStyle" : 0,
+                                    "miterLimit" : 10
+                                  },
+                                  "isBackgroundTexture" : true,
+                                  "textBaseline" : 0,
+                                  "isVerticalText" : false,
+                                  "textureType" : 5
+                                },
+                                "initialState" : {
+                                  "affineTransform" : [
                                     1,
-                                    1
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    501.70703125,
-                                    1
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
-                                    501.70703125,
-                                    373.21484375
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "AddLine",
-                                "points" : [
-                                  [
+                                    0,
+                                    0,
                                     1,
-                                    373.21484375
-                                  ]
-                                ]
-                              },
-                              {
-                                "type" : "CloseSubpath"
-                              },
-                              {
-                                "type" : "MoveToPoint",
-                                "points" : [
-                                  [
+                                    0,
+                                    0
+                                  ],
+                                  "masksToBounds" : false,
+                                  "rotation" : 0,
+                                  "scale" : 1,
+                                  "position" : {
+                                    "pointX" : 175.8125,
+                                    "pointY" : 198.673828125
+                                  },
+                                  "width" : 354,
+                                  "sublayerTransform" : [
                                     1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
                                     1
-                                  ]
-                                ]
+                                  ],
+                                  "contentsRect" : {
+                                    "y" : 0,
+                                    "x" : 0,
+                                    "width" : 1,
+                                    "height" : 1
+                                  },
+                                  "opacity" : 1,
+                                  "edgeAntialiasingMask" : 0,
+                                  "height" : 400,
+                                  "hidden" : false,
+                                  "anchorPoint" : {
+                                    "pointX" : 0.499657927259887,
+                                    "pointY" : 0.49918457031250002
+                                  }
+                                },
+                                "texture" : "D62B576A04B924537BF02EC557B26970"
                               }
-                            ],
-                            "windingRule" : 0,
-                            "lineJoinStyle" : 0,
-                            "miterLimit" : 10
+                            ]
                           },
-                          "isBackgroundTexture" : true,
-                          "textBaseline" : 0,
-                          "isVerticalText" : false,
-                          "textureType" : 5
-                        },
-                        "initialState" : {
-                          "affineTransform" : [
-                            1,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0
-                          ],
-                          "masksToBounds" : false,
-                          "rotation" : 0,
-                          "scale" : 1,
-                          "position" : {
-                            "pointX" : 250.353515625,
-                            "pointY" : 186.107421875
-                          },
-                          "width" : 503,
-                          "sublayerTransform" : [
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1
-                          ],
-                          "contentsRect" : {
-                            "y" : 0,
-                            "x" : 0,
-                            "width" : 1,
-                            "height" : 1
-                          },
-                          "opacity" : 1,
-                          "edgeAntialiasingMask" : 0,
-                          "height" : 375,
-                          "hidden" : false,
-                          "anchorPoint" : {
-                            "pointX" : 0.4997087785785288,
-                            "pointY" : 0.498953125
-                          }
-                        },
-                        "texture" : "1A65E459C16EE985FF33D78C1AABB963"
-                      }
-                    ]
-                  },
-                  "effects" : [
+                          "effects" : [
+                            {
+                              "beginTime" : 0,
+                              "baseLayer" : {
+                                "animations" : [
+                                  {
+                                    "timeOffset" : 0,
+                                    "from" : {
+                                      "scalar" : 1
+                                    },
+                                    "beginTime" : 1e-100,
+                                    "repeatCount" : 0,
+                                    "fillMode" : "both",
+                                    "property" : "opacity",
+                                    "autoreverses" : false,
+                                    "duration" : 1.1000000000000001,
+                                    "to" : {
+                                      "scalar" : 0
+                                    }
+                                  }
+                                ],
+                                "initialState" : {
+                                  "affineTransform" : [
+                                    1,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "masksToBounds" : false,
+                                  "rotation" : 0,
+                                  "scale" : 1,
+                                  "position" : {
+                                    "pointX" : 506.17187499999994,
+                                    "pointY" : 574
+                                  },
+                                  "width" : 355,
+                                  "sublayerTransform" : [
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "contentsRect" : {
+                                    "y" : 0,
+                                    "x" : 0,
+                                    "width" : 1,
+                                    "height" : 1
+                                  },
+                                  "opacity" : 1,
+                                  "edgeAntialiasingMask" : 251658240,
+                                  "height" : 400,
+                                  "hidden" : false,
+                                  "anchorPoint" : {
+                                    "pointX" : 0.5,
+                                    "pointY" : 0.5
+                                  }
+                                },
+                                "objectID" : "CADD0F14-975D-4D9C-AB9E-FD3EC017203D",
+                                "layers" : [
+                                  {
+                                    "animations" : [
 
+                                    ],
+                                    "layers" : [
+
+                                    ],
+                                    "texturedRectangle" : {
+                                      "singleTextureOpacity" : 1,
+                                      "textXHeight" : 0,
+                                      "shapePath" : {
+                                        "lineWidth" : 1,
+                                        "flatness" : 0.59999999999999998,
+                                        "lineCapStyle" : 0,
+                                        "elements" : [
+                                          {
+                                            "type" : "MoveToPoint",
+                                            "points" : [
+                                              [
+                                                1.6718749999999432,
+                                                1
+                                              ]
+                                            ]
+                                          },
+                                          {
+                                            "type" : "AddLine",
+                                            "points" : [
+                                              [
+                                                353.296875,
+                                                1
+                                              ]
+                                            ]
+                                          },
+                                          {
+                                            "type" : "AddLine",
+                                            "points" : [
+                                              [
+                                                353.296875,
+                                                398.34765625
+                                              ]
+                                            ]
+                                          },
+                                          {
+                                            "type" : "AddLine",
+                                            "points" : [
+                                              [
+                                                1.6718749999999432,
+                                                398.34765625
+                                              ]
+                                            ]
+                                          },
+                                          {
+                                            "type" : "CloseSubpath"
+                                          },
+                                          {
+                                            "type" : "MoveToPoint",
+                                            "points" : [
+                                              [
+                                                1.6718749999999432,
+                                                1
+                                              ]
+                                            ]
+                                          }
+                                        ],
+                                        "windingRule" : 0,
+                                        "lineJoinStyle" : 0,
+                                        "miterLimit" : 10
+                                      },
+                                      "isBackgroundTexture" : true,
+                                      "textBaseline" : 0,
+                                      "isVerticalText" : false,
+                                      "textureType" : 5
+                                    },
+                                    "initialState" : {
+                                      "affineTransform" : [
+                                        1,
+                                        0,
+                                        0,
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "masksToBounds" : false,
+                                      "rotation" : 0,
+                                      "scale" : 1,
+                                      "position" : {
+                                        "pointX" : 175.81250000000006,
+                                        "pointY" : 198.673828125
+                                      },
+                                      "width" : 355,
+                                      "sublayerTransform" : [
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1
+                                      ],
+                                      "contentsRect" : {
+                                        "y" : 0,
+                                        "x" : 0,
+                                        "width" : 1,
+                                        "height" : 1
+                                      },
+                                      "opacity" : 1,
+                                      "edgeAntialiasingMask" : 0,
+                                      "height" : 400,
+                                      "hidden" : false,
+                                      "anchorPoint" : {
+                                        "pointX" : 0.49995598591549295,
+                                        "pointY" : 0.49918457031250002
+                                      }
+                                    },
+                                    "texture" : "6173445C293DE8B91A0794AB60953188"
+                                  }
+                                ]
+                              },
+                              "effects" : [
+                                {
+                                  "objectID" : "207CB29C-BF10-477F-A297-768F200C039E",
+                                  "effects" : [
+                                    {
+                                      "beginTime" : 0,
+                                      "baseLayer" : {
+                                        "animations" : [
+                                          {
+                                            "timeOffset" : 0,
+                                            "from" : {
+                                              "scalar" : 1
+                                            },
+                                            "beginTime" : 1e-100,
+                                            "repeatCount" : 0,
+                                            "fillMode" : "both",
+                                            "property" : "opacity",
+                                            "autoreverses" : false,
+                                            "duration" : 1.2,
+                                            "to" : {
+                                              "scalar" : 0
+                                            }
+                                          }
+                                        ],
+                                        "initialState" : {
+                                          "affineTransform" : [
+                                            1,
+                                            0,
+                                            0,
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "masksToBounds" : false,
+                                          "rotation" : 0,
+                                          "scale" : 1,
+                                          "position" : {
+                                            "pointX" : 251.5,
+                                            "pointY" : 188.5
+                                          },
+                                          "width" : 503,
+                                          "sublayerTransform" : [
+                                            1,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            1,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            1,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            1
+                                          ],
+                                          "contentsRect" : {
+                                            "y" : 0,
+                                            "x" : 0,
+                                            "width" : 1,
+                                            "height" : 1
+                                          },
+                                          "opacity" : 1,
+                                          "edgeAntialiasingMask" : 251658240,
+                                          "height" : 375,
+                                          "hidden" : false,
+                                          "anchorPoint" : {
+                                            "pointX" : 0.5,
+                                            "pointY" : 0.5
+                                          }
+                                        },
+                                        "objectID" : "4834EE74-AC12-4412-A2C4-A9BD2254692B",
+                                        "layers" : [
+                                          {
+                                            "animations" : [
+
+                                            ],
+                                            "layers" : [
+
+                                            ],
+                                            "texturedRectangle" : {
+                                              "singleTextureOpacity" : 1,
+                                              "textXHeight" : 0,
+                                              "shapePath" : {
+                                                "lineWidth" : 1,
+                                                "flatness" : 0.59999999999999998,
+                                                "lineCapStyle" : 0,
+                                                "elements" : [
+                                                  {
+                                                    "type" : "MoveToPoint",
+                                                    "points" : [
+                                                      [
+                                                        1,
+                                                        1
+                                                      ]
+                                                    ]
+                                                  },
+                                                  {
+                                                    "type" : "AddLine",
+                                                    "points" : [
+                                                      [
+                                                        501.70703125,
+                                                        1
+                                                      ]
+                                                    ]
+                                                  },
+                                                  {
+                                                    "type" : "AddLine",
+                                                    "points" : [
+                                                      [
+                                                        501.70703125,
+                                                        373.21484375
+                                                      ]
+                                                    ]
+                                                  },
+                                                  {
+                                                    "type" : "AddLine",
+                                                    "points" : [
+                                                      [
+                                                        1,
+                                                        373.21484375
+                                                      ]
+                                                    ]
+                                                  },
+                                                  {
+                                                    "type" : "CloseSubpath"
+                                                  },
+                                                  {
+                                                    "type" : "MoveToPoint",
+                                                    "points" : [
+                                                      [
+                                                        1,
+                                                        1
+                                                      ]
+                                                    ]
+                                                  }
+                                                ],
+                                                "windingRule" : 0,
+                                                "lineJoinStyle" : 0,
+                                                "miterLimit" : 10
+                                              },
+                                              "isBackgroundTexture" : true,
+                                              "textBaseline" : 0,
+                                              "isVerticalText" : false,
+                                              "textureType" : 5
+                                            },
+                                            "initialState" : {
+                                              "affineTransform" : [
+                                                1,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0
+                                              ],
+                                              "masksToBounds" : false,
+                                              "rotation" : 0,
+                                              "scale" : 1,
+                                              "position" : {
+                                                "pointX" : 250.353515625,
+                                                "pointY" : 186.107421875
+                                              },
+                                              "width" : 503,
+                                              "sublayerTransform" : [
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1,
+                                                0,
+                                                0,
+                                                0,
+                                                0,
+                                                1
+                                              ],
+                                              "contentsRect" : {
+                                                "y" : 0,
+                                                "x" : 0,
+                                                "width" : 1,
+                                                "height" : 1
+                                              },
+                                              "opacity" : 1,
+                                              "edgeAntialiasingMask" : 0,
+                                              "height" : 375,
+                                              "hidden" : false,
+                                              "anchorPoint" : {
+                                                "pointX" : 0.4997087785785288,
+                                                "pointY" : 0.498953125
+                                              }
+                                            },
+                                            "texture" : "1A65E459C16EE985FF33D78C1AABB963"
+                                          }
+                                        ]
+                                      },
+                                      "effects" : [
+
+                                      ],
+                                      "duration" : 1.2,
+                                      "type" : "actionBuild",
+                                      "name" : "apple:action-opacity",
+                                      "objectID" : "4834EE74-AC12-4412-A2C4-A9BD2254692B"
+                                    }
+                                  ],
+                                  "beginTime" : 0,
+                                  "name" : "apple:audio-start",
+                                  "type" : "buildOut",
+                                  "duration" : 0.5
+                                }
+                              ],
+                              "duration" : 1.1000000000000001,
+                              "type" : "actionBuild",
+                              "name" : "apple:action-opacity",
+                              "objectID" : "CADD0F14-975D-4D9C-AB9E-FD3EC017203D"
+                            }
+                          ],
+                          "duration" : 1.2,
+                          "type" : "actionBuild",
+                          "name" : "apple:action-opacity",
+                          "objectID" : "48ADA79F-9F77-4EF6-A455-D85EF5841491"
+                        }
+                      ],
+                      "duration" : 1,
+                      "type" : "actionBuild",
+                      "name" : "apple:action-opacity",
+                      "objectID" : "45D4F3D6-42DD-4AB1-98DA-2400E5ADFFBE"
+                    }
                   ],
-                  "duration" : 2,
+                  "duration" : 1.2,
                   "type" : "actionBuild",
                   "name" : "apple:action-opacity",
-                  "objectID" : "4834EE74-AC12-4412-A2C4-A9BD2254692B"
+                  "objectID" : "C9C54CED-8D94-4285-A198-912BF88EFE63"
                 }
               ],
-              "duration" : 2,
+              "duration" : 2.25,
               "type" : "buildIn",
               "attributes" : {
                 "KNBuildCustomAttributesShine" : false,
@@ -2923,14 +2970,14 @@
               "objectID" : "AA67DC4C-2AB0-4A79-997D-ED00F5FC5FDF"
             }
           ],
-          "duration" : 2.5,
+          "duration" : 10,
           "type" : "buildIn",
           "attributes" : {
             "KNBuildCustomAttributesShine" : false,
             "direction" : 0,
             "KNBuildCustomAttributesScaleAmount" : 99.806385869565219
           },
-          "name" : "com.apple.iWork.Keynote.FromDarkness",
+          "name" : "com.apple.iWork.Keynote.Blur",
           "objectID" : "45D4F3D6-42DD-4AB1-98DA-2400E5ADFFBE"
         }
       ],
@@ -4623,7 +4670,7 @@
     {
       "effects" : [
         {
-          "beginTime" : 1.5,
+          "beginTime" : 4.5,
           "baseLayer" : {
             "animations" : [
 
@@ -4814,7 +4861,7 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 1,
+                            "beginTime" : 1.25,
                             "repeatCount" : 0,
                             "fillMode" : "both",
                             "property" : "hidden",
@@ -4829,12 +4876,12 @@
                             "from" : {
                               "scalar" : true
                             },
-                            "beginTime" : 1.0009999999999999,
+                            "beginTime" : 1.2509999999999999,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.999,
+                            "duration" : 1.2490000000000001,
                             "to" : {
                               "scalar" : true
                             }
@@ -4842,7 +4889,7 @@
                         ],
                         "fillMode" : "both",
                         "autoreverses" : false,
-                        "duration" : 2
+                        "duration" : 2.5
                       }
                     ],
                     "layers" : [
@@ -4941,7 +4988,7 @@
                             "fillMode" : "removed",
                             "property" : "opacity",
                             "autoreverses" : false,
-                            "duration" : 2,
+                            "duration" : 2.5,
                             "keyTimes" : [
                               0,
                               0.5,
@@ -4951,7 +4998,7 @@
                         ],
                         "fillMode" : "both",
                         "autoreverses" : false,
-                        "duration" : 2
+                        "duration" : 2.5
                       }
                     ],
                     "initialState" : {
@@ -5021,7 +5068,7 @@
           "effects" : [
 
           ],
-          "duration" : 2,
+          "duration" : 2.5,
           "type" : "transition",
           "name" : "com.apple.iWork.Keynote.BLTFadeThruColor",
           "objectID" : "0"

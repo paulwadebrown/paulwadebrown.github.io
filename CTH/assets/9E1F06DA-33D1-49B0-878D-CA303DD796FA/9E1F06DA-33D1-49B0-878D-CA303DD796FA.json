@@ -16,7 +16,7 @@
     },
     "28B17E861581936434454C0BDB29A680" : {
       "type" : "texture",
-      "index" : 4,
+      "index" : 8,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -44,7 +44,7 @@
     },
     "37F7DC57B77DB7ABEFFBE705C1B23164" : {
       "type" : "texture",
-      "index" : 8,
+      "index" : 6,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -72,7 +72,7 @@
     },
     "0B56A0E8997FFD987C6CF7AD786C06CB" : {
       "type" : "texture",
-      "index" : 6,
+      "index" : 4,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -81,8 +81,8 @@
       "url" : {
         "native" : "assets\/9E1F06DA-33D1-49B0-878D-CA303DD796FA.pdf"
       },
-      "width" : 420,
-      "height" : 425
+      "width" : 484,
+      "height" : 384
     },
     "DF3F7DD8465BA5C4C89437A75E96A4D8" : {
       "type" : "texture",
@@ -460,12 +460,12 @@
       ],
       "accessibility" : [
         {
-          "text" : "BREXIT has introduced new challenges to the hospitality sector with uncertainty being the new status quo, but while sterling remains low, inbound travellers are expected to reach record highs and we believe the industry will also benefit from ‘staycationers’ choosing to holiday in the UK. ",
+          "text" : "pasted-image.pdf",
           "targetRectangle" : {
-            "y" : 201.75042724609375,
-            "x" : 40.414958953857422,
-            "width" : 431.21875000000028,
-            "height" : 118.12898254394531
+            "y" : 339.11614990234375,
+            "x" : 19.964309692382812,
+            "width" : 988.44851285871118,
+            "height" : 163.5
           }
         },
         {
@@ -550,12 +550,12 @@
           }
         },
         {
-          "text" : "pasted-image.pdf",
+          "text" : "BREXIT has introduced new challenges to the hospitality sector with uncertainty being the new status quo, but while sterling remains low, inbound travellers are expected to reach record highs and we believe the industry will also benefit from ‘staycationers’ choosing to holiday in the UK. ",
           "targetRectangle" : {
-            "y" : 339.11614990234375,
-            "x" : 19.964309692382812,
-            "width" : 988.44851285871118,
-            "height" : 163.5
+            "y" : 201.75042724609375,
+            "x" : 40.414958953857422,
+            "width" : 431.21875000000028,
+            "height" : 118.12898254394531
           }
         }
       ],
@@ -1746,7 +1746,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "28B17E861581936434454C0BDB29A680"
+                    "texture" : "0B56A0E8997FFD987C6CF7AD786C06CB"
                   }
                 ]
               }
@@ -2213,7 +2213,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "0B56A0E8997FFD987C6CF7AD786C06CB"
+                    "texture" : "37F7DC57B77DB7ABEFFBE705C1B23164"
                   }
                 ]
               }
@@ -2834,12 +2834,12 @@
           }
         },
         {
-          "text" : "BREXIT has introduced new challenges to the hospitality sector with uncertainty being the new status quo, but while sterling remains low, inbound travellers are expected to reach record highs and we believe the industry will also benefit from ‘staycationers’ choosing to holiday in the UK. ",
+          "text" : "pasted-image.pdf",
           "targetRectangle" : {
-            "y" : 201.75042724609375,
-            "x" : 40.414958953857422,
-            "width" : 431.21875000000028,
-            "height" : 118.12898254394531
+            "y" : 339.11614990234375,
+            "x" : 19.964309692382812,
+            "width" : 988.44851285871118,
+            "height" : 163.5
           }
         },
         {
@@ -2924,12 +2924,12 @@
           }
         },
         {
-          "text" : "pasted-image.pdf",
+          "text" : "BREXIT has introduced new challenges to the hospitality sector with uncertainty being the new status quo, but while sterling remains low, inbound travellers are expected to reach record highs and we believe the industry will also benefit from ‘staycationers’ choosing to holiday in the UK. ",
           "targetRectangle" : {
-            "y" : 339.11614990234375,
-            "x" : 19.964309692382812,
-            "width" : 988.44851285871118,
-            "height" : 163.5
+            "y" : 201.75042724609375,
+            "x" : 40.414958953857422,
+            "width" : 431.21875000000028,
+            "height" : 118.12898254394531
           }
         }
       ],
